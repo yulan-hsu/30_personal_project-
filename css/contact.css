@@ -1,0 +1,354 @@
+@import "./common/all.css";
+@import "./common/header.css";
+@import "./common/footer.css";
+
+
+div.banner {
+  position: relative;
+  height: 480px;
+  width: 41.5%;
+  background-color: #656C74;
+  margin: 0px 0px 35px 650px;
+  display: flex;
+
+}
+
+div.banner_img1 {
+  margin: 217px 0px 0px -450px;
+}
+
+div.banner_img1 img{
+  width: 310px;
+}
+
+div.banner_img2 {
+  margin: 115px 0px 0px -40px;
+}
+
+div.banner_img2 img{
+  width: 260px;
+}
+
+div.color_block{
+  position: relative;
+  display: flex;
+  margin-left: 105px;
+}
+
+div.color_block div.color_block1{
+  width: 35px;
+  height: 35px;
+  background-color: #EF6306;
+  transform: skew(-20deg, 0deg);
+  margin-right: 15px;
+}
+div.color_block div.color_block2{
+  width: 35px;
+  height: 35px;
+  background-color: #EF6306;
+  transform: skew(-20deg, 0deg);
+  margin-right: 15px;
+}
+div.color_block div.color_block3{
+  width: 35px;
+  height: 35px;
+  background-color: #EF6306;
+  transform: skew(-20deg, 0deg);
+  margin-right: 15px;
+}
+div.color_block div.color_block4{
+  width: 35px;
+  height: 35px;
+  background-color: #EF6306;
+  transform:skew(-20deg, 0deg);
+  margin-right: 15px;
+}
+div.color_block div.color_block5{
+  width: 35px;
+  height: 35px;
+  background-color: #EF6306;
+  transform:skew(-20deg, 0deg);
+  margin-right: 15px;
+}
+div.color_block div.color_block6{
+  width: 35px;
+  height: 35px;
+  background-color: #EF6306;
+  transform:skew(-20deg, 0deg);
+}
+section.declaration{
+  margin: 70px 0px 20px 0px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+section.declaration div.declaration1{
+  position: relative;
+  margin-right: 40px;
+  padding: 10px;
+}
+section.declaration  div.declaration1 div.circle1 {
+  justify-content: center;
+  background: #D9D9D9;
+  height: 150px;
+  width: 150px;
+  border-radius: 99em;
+  margin: 0px auto;
+
+}
+section.declaration div.declaration1 pre {
+  font-size: 24px;
+  margin-top: -90px;
+
+
+}
+section.declaration  div.declaration1 p {
+  font-size: 18px;
+
+
+}
+section.declaration div.declaration2{
+  position: relative;
+  margin-right: 40px;
+  padding: 10px;
+}
+section.declaration div.declaration2 div.circle2  {
+  justify-content: center;
+  background: #D9D9D9;
+  height: 150px;
+  width: 150px;
+  border-radius: 99em;
+  margin: 0px auto;
+
+
+}
+section.declaration div.declaration2 pre {
+  font-size: 24px;
+  margin-top: -90px;
+
+
+}
+section.declaration  div.declaration2 p {
+  font-size: 18px;
+
+
+}
+section.declaration div.declaration3 {
+  position: relative;
+  padding: 10px;
+}
+section.declaration div.declaration3 div.circle3 {
+  justify-content: center;
+  background: #D9D9D9;
+  height: 150px;
+  width: 150px;
+  border-radius: 99em;
+  margin: 0px auto;
+}
+section.declaration div.declaration3 pre {
+  font-size: 24px;
+  margin-top: -90px;
+
+
+}
+section.declaration  div.declaration3 p {
+  font-size: 18px;
+
+
+}
+
+
+article.line1{
+  position: relative;
+  margin-top: 80px;
+}
+
+h1{
+  font-size: 24px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  padding: 10px 0px 0px 40px;
+  margin:0px 0px -13px 100px;
+}
+h2{
+  font-size: 18px;
+  border-bottom: 1px solid black;
+  margin-left:100px;
+  width: 600px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  padding: 0px 0px 10px 40px;
+
+}
+article.line1 a.fishes_img img{
+  height: 400px;
+  float: right;
+  margin-right:100px;
+
+}
+
+article.line1 div.text {
+  font-size: 18px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  margin:35px 0px 0px 140px;
+  line-height: 1.5;
+}
+article.line2{
+  position: relative;
+
+}
+
+article.line2 div.text {
+  font-size: 18px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  margin:210px 0px 0px 720px;
+  line-height: 1.5;
+}
+div.rectangle{
+  border: 7px solid #EF6306;
+  width: 190px;
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+  float: right;
+  margin:-56px 70px 0px 0px ;
+
+}
+
+article.line3{
+  position: relative;
+  margin-top: -200px;
+}
+article.line3 a.cherries_img img{
+  height: 450px;
+  margin:-50px 0px 0px 240px;
+}
+article.line3 a.cantaloupe_img img{
+  height: 480px;
+  margin:-150px 0px 0px 664px;
+}
+article.line3 div.box{
+  margin:-485px 0px 0px 100px;
+  height: 270px;
+  width: 670px;
+  background-color: #D9D9D9;
+
+}
+article.line3 div.text {
+  font-size: 18px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  margin:-41px 0px 0px 300px;
+  line-height: 1.5;
+}
+
+article.line4{
+  position: relative;
+  z-index: -1;
+}
+div.square{
+  border: 15px solid #EF6306;
+  width: 350px;
+  height: 350px;
+  margin:-70px 0px 0px -600px ;
+  background-image: url("../images/contact/122-03.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+article.line4 div.color_block{
+  margin:150px 0px 0px 800px;
+}
+
+article.line4 div.color_block div.color_block1{
+  width: 35px;
+  height: 35px;
+  background-color: #EF6306;
+  transform: skew(-20deg, 0deg);
+  margin-right: 15px;
+}
+article.line4 div.color_block div.color_block2{
+  width: 35px;
+  height: 35px;
+  background-color: #EF6306;
+  transform: skew(-20deg, 0deg);
+  margin-right: 15px;
+}
+article.line4 div.color_block div.color_block3{
+  width: 35px;
+  height: 35px;
+  background-color: #EF6306;
+  transform: skew(-20deg, 0deg);
+  margin-right: 15px;
+}
+article.line4 div.color_block div.color_block4{
+  width: 35px;
+  height: 35px;
+  background-color: #EF6306;
+  transform:skew(-20deg, 0deg);
+  margin-right: 15px;
+}
+article.line4 div.color_block div.color_block5{
+  width: 35px;
+  height: 35px;
+  background-color: #EF6306;
+  transform:skew(-20deg, 0deg);
+  margin-right: 15px;
+}
+
+article.line5{
+  position: relative;
+  margin-top: 90px;
+  display: flex;
+}
+
+article.line5 div.color_block {
+  width: 640px;
+  height: 700px;
+  background-color: #656C74;
+  margin: 0px;
+}
+article.line5 div.text{
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+}
+article.line5 div.text1{
+padding:0px;
+margin-bottom:-40px;
+
+
+}
+article.line5 div.text div.text1  h3{
+
+  font-size: 24px;
+  padding: 10px 0px 0px 440px;
+  margin:0px 0px -13px 00px;
+
+}
+article.line5 div.text div.text1  h4{
+  font-size: 18px;
+  border-bottom: 2px solid black;
+  width: 540px;
+  padding: 0px 0px 10px 475px;
+
+}
+article.line5 div.text div.text2 {
+  padding: 15px 0px 10px 50px;
+  font-size: 14px;
+  margin: 0px 100px 0px 0px;
+}
+
+article.line6{
+  position: relative;
+  margin:-180px 0px 90px 100px;
+}
+
+article.line6 a img{
+  height: 300px;
+  padding-right: 30px;
+  margin:0px;
+}
+
+div.text_{
+  font-size: 14px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  background-color: #EF6306;
+  text-align: center;
+}

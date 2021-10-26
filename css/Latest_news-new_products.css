@@ -1,0 +1,96 @@
+@import "./common/all.css";
+@import "./common/header.css";
+@import "./common/footer.css";
+
+div.banner {
+  position: relative;
+  z-index: -1;
+  border: 1px solid: red;
+  height: 480px;
+  display: flex;
+  overflow:hidden;
+
+}
+div.banner a.img img{
+  width: 960px;
+  height: 480px;
+  float: left;
+}
+div.banner a.text img{
+  height: 200px;
+  float: right;
+  margin:160px 50px 50px -240px;
+}
+ul.Menu{
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  height: 65px;
+  margin:-35px 0px 0px 0px;
+  float: right;
+}
+ul.Menu li > a{
+
+  text-decoration:none;
+  display: inline-block;
+  width: 170px;
+  background: #D9D9D9;
+  font-size: 18px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  color: #000000;
+  padding: 25px ;
+  text-align: center;
+}
+
+ul.Menu > li > a.announcement {
+  margin-right: 15px;
+}
+
+ul.Menu > li > a.new_products {
+  margin-right:15px;
+  background: #656C74;
+  color: #ffffff;
+}
+ul.Menu li > a:hover{
+  background-color: #656C74;
+  color: white;
+
+}
+
+div.products {
+position: relative;
+z-index: -1;
+height: 680px;
+margin: 0 auto;
+display: flex;
+/* position: relative; */
+
+}
+
+div.products div.products_img1 img {
+ width: 260px;
+  height: auto;
+  margin: 160px 30px 100px 206px;
+}
+
+div.products div.products_img2 img {
+
+  width: 310px;
+  height: auto;
+  margin: 120px 30px 0px 0px;
+}
+
+div.products div.products_img3 img {
+
+  width: 260px;
+  height: auto;
+    margin: 160px 50px 0px 0px;
+}
+
+div.text_{
+  font-size: 14px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  background-color: #EF6306;
+  text-align: center;
+}

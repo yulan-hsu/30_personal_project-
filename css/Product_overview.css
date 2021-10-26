@@ -1,0 +1,278 @@
+@import "./common/all.css";
+@import "./common/header.css";
+@import "./common/footer.css";
+
+div.banner {
+  position: relative;
+  height: 480px;
+  width: 100%;
+  background-image: url("../images/Product_overview/boxes-wooden.jpg/");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+div.outer_block{
+  position: relative;
+  /* border: 1px solid black; */
+  width: 100%;
+  margin: 100px auto;
+  display: flex;
+
+}
+div.left_block{
+  /* border: 1px solid red; */
+  margin:0px 40px 0px 100px;
+  flex-basis: 150px;
+  flex-shrink: 0;
+  font-size: 18px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+}
+div.left_block h1{
+  font-size: 24px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+}
+div.left_block div.category{
+  display: inline-block;
+  /* margin-bottom: 10px ; */
+}
+div.left_block a.fish {
+  display: block;
+  /* border: 1px solid black; */
+  text-decoration:none;
+  color: black;
+  margin-bottom: 10px;
+}
+div.left_block a.fish img{
+    width: 22px;
+    margin:0px 15px -12px 10px;
+
+}
+div.left_block a.grape {
+  display: block;
+  /* border: 1px solid black; */
+  text-decoration:none;
+  color: black;
+  margin-bottom: 15px;
+}
+div.left_block a.grape img{
+    width: 37px;
+    margin:0px 10px -8px 0px;
+}
+div.left_block a.cherry {
+  display: block;
+  /* border: 1px solid black; */
+  text-decoration:none;
+  color: black;
+  margin-bottom: 15px;
+}
+div.left_block a.cherry img{
+    width: 30px;
+    margin:0px 10px -8px 7px;
+
+}div.left_block a.apple {
+  display: block;
+  /* border: 1px solid black; */
+  text-decoration:none;
+  color: black;
+  margin-bottom: 15px;
+}
+div.left_block a.apple img{
+    width: 33px;
+    margin:0px 10px -8px 5px;
+
+}div.left_block a.cantaloupe {
+  display: block;
+  /* border: 1px solid black; */
+  text-decoration:none;
+  color: black;
+  margin-bottom: 15px;
+}
+div.left_block a.cantaloupe img{
+    width: 33px;
+    margin:0px 10px -8px 5px;
+
+}div.left_block a.pitaya {
+  display:block;
+  /* border: 1px solid black; */
+  text-decoration:none;
+  color: black;
+}
+div.left_block a.pitaya img{
+    width: 35px;
+    margin:0px 10px -10px 5px;
+
+}
+div.right_block{
+  /* border: 1px solid purple; */
+  flex-grow: 1;
+  margin-right: 100px;
+}
+div.breadcrumb{
+  padding: 5px 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+div.breadcrumb ol.breadcrumb_list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+div.breadcrumb ol.breadcrumb_list > li{
+/*   border: 1px solid red; */
+  display: inline-block;
+  color: #EF6306;
+  font-size: 18px;
+}
+
+
+
+/* 利用 ::before 擬似元素，創造斜線做為分隔 */
+div.breadcrumb ol.breadcrumb_list > li::before{
+  content: "/";
+  font-size: 18px;
+  color: gray;
+  margin: 0 10px;
+}
+/* 第一個 li 元素，將 ::before 設定回來需要的 */
+div.breadcrumb ol.breadcrumb_list > li:first-child::before{
+  display: none;
+}
+
+
+/* 基本文字樣式 */
+div.breadcrumb ol.breadcrumb_list > li > a{
+  /* border: 1px solid blue; */
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+/* 滑動移過後改變文字顏色 */
+div.breadcrumb ol.breadcrumb_list > li > a:hover{
+  color: #EF6306;
+}
+
+div.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* border: 1px solid black; */
+  font-size: 16px;
+  margin: 20px 60px 0px 60px;
+  /* padding: 30px; */
+  gap: 20px;
+}
+div.grid-container div.fish1  {
+  text-align: center;
+
+  margin: 0px auto;
+
+}
+div.grid-container div.fish1 a {
+  text-decoration:none;
+  color: black;
+}
+div.fish1 a img{
+  width: 230px;
+}
+div.grid-container div.fish2  {
+  text-align: center;
+
+  margin: 0px auto;
+}
+div.grid-container div.fish2 a {
+  text-decoration:none;
+  color: black;
+}
+div.fish2 a img{
+  width: 230px;
+}
+div.grid-container div.fish3  {
+  text-align: center;
+
+    margin: 0px auto;
+}
+div.grid-container div.fish3 a {
+  text-decoration:none;
+  color: black;
+}
+div.fish3 a img{
+  width: 230px;
+}
+div.grid-container div.cherry  {
+  text-align: center;
+
+    margin: 0px auto;
+}
+div.grid-container div.cherry a {
+  text-decoration:none;
+  color: black;
+}
+div.cherry a img{
+  width: 230px;
+}
+div.grid-container div.cantaloupe  {
+  text-align: center;
+
+    margin: 0px auto;
+}
+div.grid-container div.cantaloupe a {
+  text-decoration:none;
+  color: black;
+}
+div.cantaloupe a img{
+  width: 230px;
+}
+div.grid-container div.apple  {
+  text-align: center;
+
+    margin: 0px auto;
+}
+div.grid-container div.apple a {
+  text-decoration:none;
+  color: black;
+}
+div.apple a img{
+  width: 230px;
+}
+div.grid-container div.grape  {
+  text-align: center;
+
+    margin: 0px auto;
+}
+div.grid-container div.grape a {
+  text-decoration:none;
+  color: black;
+}
+div.grape a img{
+  width: 230px;
+}
+div.grid-container div.pitaya1  {
+  text-align: center;
+  margin: 0px auto;
+}
+div.grid-container div.pitaya1 a {
+  text-decoration:none;
+  color: black;
+}
+div.pitaya1 a img{
+  width: 230px;
+}
+div.grid-container div.pitaya2  {
+  text-align: center;
+  margin: 0px auto;
+}
+div.grid-container div.pitaya2 a {
+  text-decoration:none;
+  color: black;
+}
+div.pitaya2 a img{
+  width: 230px;
+}
+
+div.text_{
+  font-size: 14px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  background-color: #EF6306;
+  text-align: center;
+}

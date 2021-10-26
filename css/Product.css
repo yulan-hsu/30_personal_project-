@@ -1,0 +1,159 @@
+@import "./common/all.css";
+@import "./common/header.css";
+@import "./common/footer.css";
+
+
+div.banner {
+  position: relative;
+  height: 50px;
+  color: white;
+}
+
+div.outer_block{
+  position: relative;
+  width: 100%;
+  margin: 100px auto;
+  display: flex;
+
+}
+
+div.left_block{
+  position: relative;
+  margin:0px 0px 0px 100px;
+  flex-basis: 550px;
+  flex-shrink: 0;
+  font-size: 18px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+}
+
+div.left_block div.big{
+  display: inline-block;
+  font-size: 0px;
+}
+div.left_block div.small{
+  display: inline-block;
+  font-size: 0px;
+}
+div.left_block div.small {
+  margin-top:20px;
+}
+div.left_block a.fish1 img{
+  /* border: 1px solid red; */
+  width: 470px;
+}
+div.left_block a.fish2 img{
+  display: inline-block;
+  width: 150px;
+  margin-right: 10px;
+}
+div.left_block a.fish3 img{
+  display: inline-block;
+  width: 150px;
+    margin-right: 10px;
+}
+div.left_block a.fish4 img{
+  display: inline-block;
+  width: 150px;
+}
+
+div.right_block{
+  position: relative;
+  flex-grow: 1;
+  margin-right: 100px;
+}
+div.right_block h1{
+  font-size: 18px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+}
+div.right_block span{
+  font-size: 14px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+}
+
+div.right_block select.custom_select{
+  margin-top: 40px;
+  text-align: center;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+
+  outline: none;
+  background: none;
+  border: 1px solid black;
+  width: 100px;
+  padding: 5px 10px;
+
+  background-image: url("../images/Product/up-arrow.png");
+  background-repeat: no-repeat;
+  background-size: 8px;
+  background-color: white;
+
+  background-position: right 8px center;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  border-radius: 0px;
+}
+div.right_block input{
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-color: white;
+}
+div.right_block div.add{
+  background-color: #EF6306;
+  color: black;
+  font-size: 14px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  width: 80px;
+  text-align: center;
+  margin-top:20px;
+}
+
+ div.like {
+  position: relative;
+  margin: 0px auto;
+  justify-content: center;
+  text-align: center;
+}
+ div.like a.text{
+  font-size: 18px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+
+}
+ div.like div.img{
+   margin: 0px auto;
+   background-color: #D9D9D9;
+   padding: 40px;
+   margin-top: 20px
+}
+
+div.like div.img img{
+  width: 200px;
+  padding: 10px;
+}
+div.like div.img div.triangle1{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 17.3px 10px 0;
+  border-color: transparent #656C74 transparent transparent;
+  float: left;
+  margin: 90px 0px 0px 80px;
+}
+div.like div.img div.triangle2{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 10px 17.3px;
+  border-color: transparent transparent transparent #656C74;
+  float: right;
+  margin: 90px 80px 0px 0px;
+
+}
+div.text_{
+  font-size: 14px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  background-color: #EF6306;
+  text-align: center;
+}

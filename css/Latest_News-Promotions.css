@@ -1,0 +1,101 @@
+@import "./common/all.css";
+@import "./common/header.css";
+@import "./common/footer.css";
+
+div.banner {
+  position: relative;
+  border: 1px solid: red;
+  height: 480px;
+  display: flex;
+
+}
+div.banner a.cherries img{
+  height: 480px;
+  width: 960px;
+  float: left;
+}
+div.banner a.text img{
+  height: 200px;
+  float: right;
+  margin:80px 50px 50px -400px;
+}
+ul.Menu{
+  position: relative;
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  margin:-35px 0px 0px 0px;
+  float: right;
+}
+ul.Menu li > a{
+  display: inline-block;
+  position: relative;
+  text-decoration:none;
+  width: 170px;
+  background: #D9D9D9;
+  font-size: 18px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  color: #000000;
+  padding: 25px ;
+  text-align: center;
+}
+
+ul.Menu > li > a.announcement {
+  margin-right: 15px;
+}
+
+ul.Menu > li > a.new_products {
+  margin-right:15px;
+}
+ul.Menu li > a:hover {
+  background-color: #656C74;
+  color: white;
+}
+ul.Menu > li > a.promotions {
+  background: #656C74;
+  color: #ffffff;
+}
+
+section.Promotions_goods {
+  position: relative;
+  /* border: 1px solid black; */
+  height: 730px;
+  width: 100%;
+  margin: 100px 0px 90px 0px;
+  background: linear-gradient(to right, #ffffff 50%, #D9D9D9 50%);
+  background-position: right right;
+  float: right;
+}
+section.Promotions_goods div.Promotions_goods_img {
+  display: flex;
+  margin: 50px 0px 0px 140px;
+
+}
+
+section.Promotions_goods div.Promotions_goods1 img {
+  width: 310px;
+  height: auto;
+  border: 10px solid #656C74;
+  margin:0px 30px 0px 0px;
+}
+section.Promotions_goods div.Promotions_goods2 img {
+  width: 310px;
+  height: auto;
+  border: 10px solid #656C74;
+  margin:155px 30px 0px 0px;
+}
+section.Promotions_goods div.Promotions_goods3 img {
+  width: 310px;
+  height: auto;
+  border: 10px solid #656C74;
+  margin:310px 30px 0px 0px;
+}
+
+
+div.text_{
+  font-size: 14px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  background-color: #EF6306;
+  text-align: center;
+}

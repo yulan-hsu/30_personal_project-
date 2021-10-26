@@ -1,0 +1,87 @@
+footer.footer{
+  position: relative;
+  background-color: #EF6306;
+  color: black;
+  padding: 40px 0;
+  min-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  font-size: 14px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+}
+
+footer.footer div.FIND_ME_{
+  font-size: 18px;
+}
+footer.footer div.FIND_ME{
+  flex-basis: 35%;
+  flex-shrink: 0;
+  line-height: 1.5;
+  padding-left:100px;
+  white-space: normal;
+}
+footer.footer div.social_block a.line img{
+  height: 20px;
+  margin-top:5px;
+}
+footer.footer div.social_block a.instagram img{
+  height: 20px;
+  margin-top:5px;
+}footer.footer div.social_block a.facebook img{
+  height: 20px;
+  margin-top:5px;
+}
+
+
+footer.footer div.CUSTOMER_SERVICE{
+  flex-basis: 30%;
+  margin-left:100px;
+}
+footer.footer div.CUSTOMER_SERVICE_{
+  font-size: 18px;
+    margin-left:20px;
+}
+
+footer.footer div.CUSTOMER_SERVICE a.contact img{
+  height: 40px;
+  margin: 5px 10px 10px 20px;
+}
+footer.footer div.CUSTOMER_SERVICE a.line1{
+  margin-left: 40px ;
+}
+footer.footer div.CUSTOMER_SERVICE a.Latest_news img{
+  height: 30px;
+  margin: 5px 10px 10px 10px;
+}
+footer.footer div.CUSTOMER_SERVICE a.line2{
+  margin-left: 35px ;
+}
+footer.footer div.CUSTOMER_SERVICE a.shopping-bags img{
+  height: 30px;
+  margin: 30px 50px 15px 53px;
+}
+footer.footer div.CUSTOMER_SERVICE a.line3{
+  margin-left: 40px ;
+}
+footer.footer div.CUSTOMER_SERVICE a.faq img{
+  height: 30px;
+  margin: 30px 10px 10px 7px;
+}
+footer.footer div.CUSTOMER_SERVICE a.line4{
+  margin-left: 52px ;
+}
+
+footer.footer div.HELLO_text a{
+  text-decoration:none;
+  font-size: 14px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  color: black;
+}
+footer.footer div.HELLO{
+    flex-basis: 35%;
+    margin-left:100px;
+}
+footer.footer div.HELLO a.service_img img{
+  height: 150px;
+  margin: 10px 0px 10px 0px;
+}

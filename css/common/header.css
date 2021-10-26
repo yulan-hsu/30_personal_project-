@@ -1,0 +1,66 @@
+header.header{
+  width: 100%;
+  margin: 0 auto;
+  background-color: #EF6306;
+  position: fixed;
+  z-index: 100;
+}
+header.header::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+header.header a.logo_img{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 2px 40px 0px 60px;
+  float: left;
+
+}
+header.header a.logo_img img{
+  width: 150px;
+}
+header.header nav.nav{
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+header.header nav.nav ul.link_list{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+header.header nav.nav ul.link_list > li{
+  display: inline-block;
+
+}
+header.header nav.nav ul.link_list > li > a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 10px;
+  min-width: 100px;
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+}
+
+header.header nav.nav ul.link_list > li > a:hover{
+color: #ffffff;
+}
+header.header div.right_icon{
+  position: relative;
+  display: flex;
+  float: right;
+  padding: 18px 60px;
+}
+header.header div.right_icon_img img{
+  width: 30px;
+  padding: 7px 6px 4px 6px;
+}
+header.header div.right_icon  a.language{
+  color: #000000;
+  font-size: 16px;
+  padding: 3px 10px 4px 6px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+}
