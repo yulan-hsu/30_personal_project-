@@ -6,6 +6,11 @@ header.header nav.nav ul.link_list > li > a.about_me{
   color: #ffffff;
 }
 
+@import "./common/all.css";
+@import "./common/header.css";
+@import "./common/footer.css";
+
+
 div.banner {
   position: relative;
   height: 480px;
@@ -163,7 +168,7 @@ section.declaration  div.declaration3 p {
 
 
 article.line1{
-  position: absolute;
+  position: relative;
   margin-top: 80px;
 }
 
@@ -213,7 +218,6 @@ div.rectangle{
   transform-origin: 50% 50%;
   float: right;
   margin:-56px 70px 0px 0px ;
-  z-index: -1;
 
 }
 
