@@ -196,7 +196,7 @@ article.line1 div.text {
   line-height: 1.5;
 }
 article.line2{
-  position: absolut;
+  position: relative;
 
 }
 
@@ -218,7 +218,7 @@ div.rectangle{
 }
 
 article.line3{
-  position: absolut;
+  position: relative;
   margin-top: -200px;
 }
 article.line3 a.cherries_img img{
@@ -244,7 +244,7 @@ article.line3 div.text {
 }
 
 article.line4{
-  position: absolut;
+  position: relative;
   z-index: -1;
 }
 div.square{
@@ -299,7 +299,7 @@ article.line4 div.color_block div.color_block5{
 }
 
 article.line5{
-  position: absolut;
+  position: relative;
   margin-top: 90px;
   display: flex;
 }
