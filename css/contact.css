@@ -2,6 +2,9 @@
 @import "./common/header.css";
 @import "./common/footer.css";
 
+header.header nav.nav ul.link_list > li > a.about_me{
+  color: #ffffff;
+}
 
 div.banner {
   position: relative;

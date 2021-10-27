@@ -2,9 +2,12 @@
 @import "./common/header.css";
 @import "./common/footer.css";
 
+header.header nav.nav ul.link_list > li > a.announcement{
+  color: #ffffff;
+}
+
 div.banner {
   position: relative;
-  border: 1px solid: red;
   height: 480px;
   display: flex;
 

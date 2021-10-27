@@ -2,6 +2,9 @@
 @import "./common/header.css";
 @import "./common/footer.css";
 
+header.header nav.nav ul.link_list > li > a.Product{
+  color: #ffffff;
+}
 
 div.banner {
   position: relative;

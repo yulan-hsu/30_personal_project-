@@ -2,11 +2,12 @@
 @import "./common/header.css";
 @import "./common/footer.css";
 
-
+header.header nav.nav ul.link_list > li > a.announcement{
+  color: #ffffff;
+}
 
 div.banner {
   position: relative;
-  border: 1px solid: red;
   height: 480px;
   display: flex;
 
@@ -68,6 +69,10 @@ article.news div.news1{
   align-items: center ;
   /* justify-content: center; */
 }
+article.news div.news1:hover {
+  height: 270px;
+  width: 85%;
+}
 article.news div.news1 div.date{
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
   color: #000000;
@@ -123,6 +128,10 @@ article.news div.news2{
   display:flex;
   align-items: center ;
 }
+article.news div.news2:hover {
+  height: 270px;
+  width: 85%;
+}
 
 article.news div.news2 div.date{
   float: right;
@@ -175,6 +184,10 @@ article.news div.news3{
   margin:80px 0px 80px 0px;
   display:flex;
   align-items: center ;
+}
+article.news div.news3:hover {
+  height: 270px;
+  width: 85%;
 }
 article.news div.news3 div.date{
   font-family: "王漢宗細黑體繁", "Chalkboard SE";

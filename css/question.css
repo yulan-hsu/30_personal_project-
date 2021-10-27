@@ -2,15 +2,21 @@
 @import "./common/header.css";
 @import "./common/footer.css";
 
+header.header nav.nav ul.link_list > li > a.question{
+  color: #ffffff;
+}
+
 div.banner {
   position: relative;
   height: 480px;
   width: 100%;
+  background-color: #ffffff;
   background-image: url("../images/question/5672795.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size:contain;
   background-position: center center;
   margin: 0px auto;
+  padding: 0px;
 
 }
 div.outer_block{
