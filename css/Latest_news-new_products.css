@@ -10,6 +10,7 @@ div.banner {
   height: 480px;
   display: flex;
   overflow:hidden;
+  z-index: -1;
 
 }
 div.banner a.img img{
