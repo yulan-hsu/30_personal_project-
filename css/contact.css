@@ -188,10 +188,10 @@ h2{
 
 }
 article.line1 a.fishes_img img{
-  height: 400px;
+  width: 600px;
   float: right;
   margin-right:100px;
-
+  overflow:auto
 }
 
 article.line1 div.text {
