@@ -7,32 +7,31 @@ header.header nav.nav ul.link_list > li > a.announcement{
 }
 
 div.banner {
-  position: relative;
-  height: 480px;
+  border:1px solid blueviolet;
+  width: 1280px;
   display: flex;
+  margin: 0px auto;
 
 }
 div.banner a.cherries img{
-  height: 480px;
   width: 960px;
-  float: left;
+  z-index: -100;
 }
 div.banner a.text img{
-  height: 200px;
+  width: 400px;
   float: right;
-  margin:155px 50px 50px -400px;
+  margin:110px 0px 0px 0px;
 }
 ul.Menu{
+  width: 1280px;
   display: flex;
   list-style: none;
-  margin: 0px;
   padding: 0px;
   margin:-35px 0px 0px 0px;
   float: right;
 }
 ul.Menu li > a{
   display: inline-block;
-  position: relative;
   text-decoration:none;
   width: 170px;
   background: #D9D9D9;
@@ -58,20 +57,20 @@ ul.Menu li > a:hover{
 
 }
 article.news{
-  position: relative;
+  width: 1280px;
+  height: 1000px;
+  border: solid 1px #333;
+  margin: 20px auto;
+
 }
 article.news div.news1{
   height: 230px;
   width: 80%;
   background: #D9D9D9;
-  margin:105px 0px 0px 0px;
+  margin:105px 0px 80px 0px;
   display:flex;
   align-items: center ;
   /* justify-content: center; */
-}
-article.news div.news1:hover {
-  height: 270px;
-  width: 85%;
 }
 article.news div.news1 div.date{
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
@@ -121,16 +120,13 @@ article.news div.news2{
   height: 230px;
   width: 80%;
   background: #656C74;
-  margin:80px 0px 0px 260px;
+  float:right;
   background-position: right center;
   color: #FFFFFF;
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
   display:flex;
   align-items: center ;
-}
-article.news div.news2:hover {
-  height: 270px;
-  width: 85%;
+  margin-bottom: 80px;
 }
 
 article.news div.news2 div.date{
@@ -185,10 +181,7 @@ article.news div.news3{
   display:flex;
   align-items: center ;
 }
-article.news div.news3:hover {
-  height: 270px;
-  width: 85%;
-}
+
 article.news div.news3 div.date{
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
   color: #000000;
@@ -239,4 +232,6 @@ div.text_{
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
   background-color: #EF6306;
   text-align: center;
+  max-width: 1280px;
+  margin: 0px auto;
 }

@@ -4,16 +4,15 @@
 
 
 div.banner {
-  position: relative;
   height: 480px;
-  width: 80%;
+  width: 1180px;
   background-image: url("../images/index/apples-white-wooden-box.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0px auto;
 }
 div.box_top {
-  width: 90%;
+  width: 1280px;
   height: 40px;
   border: 2px solid black;
   background: #ffffff;
@@ -24,20 +23,29 @@ div.box_top {
   box-shadow: 3px -3px black;
   padding: 10px;
 }
-a.ribbon img {
+div.ribbon {
+  width: 1280px ;
+  height: 150px;
+  margin: 0px auto;
+}
+div.ribbon a img {
   width: 250px;
-  margin:-10px 0px -50px 900px;
+  float:right;
 }
 div.about_me {
+  /* border:1px solid teal; */
+  width: 1280px;
+  height: 600px;
   position: relative;
   box-sizing: border-box;
   display: grid;
+  grid-column: auto;
   grid-template-columns: auto auto auto auto auto;
-  margin:0px 0px 80px 0px;
-
+  margin:0px auto;
+  grid-column-gap: 0px;
 }
 div.about_me div.about_me1 {
-  width: 170px;
+  width: 100px;
 }
 div.about_me div.about_me1 h1{
   font-size: 36px;
@@ -46,21 +54,19 @@ div.about_me div.about_me1 h1{
   font-family: "王漢宗細黑體繁", "Chalkboard SE","Monotype Corsiva";
   transform: rotate(90deg);
   transform-origin: 50% 50%;
-  width:400px;
-  height:50px;
-  padding:15px;
-  margin:240px 0px 0px -80px;
+  margin:80px 0px 0px -50px;
 }
 div.about_me div.about_me1 div.line1 {
   width: 1.5px;
-  height: 307px;
+  height: 400px;
   background:black;
-  margin: -40px 0px 0px 100px ;
+  margin: 20px 0px 0px 45px ;
 
 }
 div.about_me div.about_me2 {
-  width: 300px;
-  margin-left: 20px;
+  position: relative;
+  width: 330px;
+  margin: 0px;
 
 }
 div.about_me div.about_me2 pre {
@@ -68,7 +74,7 @@ div.about_me div.about_me2 pre {
   font-size: 18px;
   color: #000000;
   font-family: "王漢宗細黑體繁", "Chalkboard SE","Monotype Corsiva";
-  margin:120px 0px 0px 0px;
+  margin:80px 0px 0px 0px;
 }
 div.about_me div.about_me2 p {
   font-size: 14px;
@@ -89,11 +95,14 @@ div.about_me div.about_me2 a.more1{
   box-shadow: 2px 0px black;
 }
 div.about_me div.about_me3   {
-    margin:0px 0px 0px 80px;
+    position: relative;
+    margin:0px 0px 0px 0px;
+    width: 400px;
+    margin-left: 50px;
 }
 div.about_me div.about_me3 a.img img{
-  width: 350px;
-  margin:150px 0px 0px 0px;
+  width: 400px;
+  margin:80px 0px 0px 0px;
 }
 div.about_me div.about_me3  p.text {
   margin:70px 0px 0px 0px;
@@ -108,11 +117,12 @@ div.about_me  div.about_me3 div.line2 {
 
 }
 div.about_me div.about_me4   {
-    margin:0px 0px 0px 20px;
+    margin:0px 0px 0px 40px;
+    width: 250px;
 }
 div.about_me div.about_me4 a.img img {
-  width: 210px;
-  margin:280px 0px 0px -27px;
+  width: 240px;
+  margin:280px 0px 0px 0px;
 }
 div.about_me div.about_me4 p.text  {
   margin:-360px 0px 0px 85px;
@@ -134,22 +144,26 @@ div.about_me  h2 {
   transform: rotate(90deg);
   transform-origin: 50% 50%;
   letter-spacing: 3px;
-  margin:400px 200px 10px -140px;
+  margin:420px 0px 10px -130px;
   height:70px;
   width: 300px;
 }
+
 h3{
- font-size: 24px;
- color: #000000;
- font-family: "王漢宗細黑體繁", "Chalkboard SE","Monotype Corsiva";
- margin:10px 0px 0px 150px;
+  width: 1280px ;
+  font-size: 24px;
+  color: #000000;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE","Monotype Corsiva";
+  margin:0px auto;
+  margin-top: 50px;
+  padding-left:240px;
 
 }
 section.Seasonal_goods {
-  position: relative;
   display: flex;
-  margin: 30px 0px 50px 150px;
-  /* border: 1px solid red; */
+  margin: 50px auto;
+  justify-content: center;
+  width: 1280px;
 
 }
 
@@ -222,49 +236,48 @@ section.Seasonal_goods div.circle{
   box-shadow:1px 3px 3px .5px gray;
 }
 section.Seasonal_goods_img div.items_img {
-  /* position: relative; */
-  /* z-index: -1; */
   box-sizing: border-box;
+  width: 1280px;
   height:250px;
-  display: flex;
+  display: grid;
   margin: 0 auto;
   overflow:hidden;
-
+  border:1px solid black;
+  grid-auto-flow: column;
+  grid-template-columns: auto auto auto auto ;
 }
 
 section.Seasonal_goods_img div.items_img a.fishes2 img{
-  width: 250px;
-  height: auto;
+  width: 350px;
   filter:brightness(0.6);
 
 
 }
 section.Seasonal_goods_img div.items_img a.apples2 img{
-  width: 400px;
-  height: auto;
+  width: 500px;
+
   filter:brightness(0.6);
 }
 section.Seasonal_goods_img div.items_img a.grapes2 img{
-  width: 430px;
-  height: auto;
+  width: 450px;
+
   filter:brightness(0.6);
 }
 section.Seasonal_goods_img div.items_img a.cherries2 img{
 
-  width: 250px;
-  height: auto;
+  width: 350px;
   filter:brightness(0.6);
 }
 
 article.hot_goods{
-  position: relative;
-  height: 550px;
-  width: 100%;
+  width: 1280px;
+  height: 600px;
+  border:1px solid peru;
   background-image: url("../images/index/01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left 500px top 100px ;
-  margin:60px 0px 80px 0px;
+  margin:50px auto;
 }
 article.hot_goods h4.hot_goods{
   font-size: 24px;
@@ -292,14 +305,20 @@ article.hot_goods div.hot_goods_img {
   float: right;
   overflow:hidden;
   display: flex;
-  width: 500px;
-  /* height: 380px; */
-  margin:-300px 0px 0px 0px;
+  width: 550px;
+  height: 450px;
+  margin:-360px 0px 0px 0px;
 
 }
 article.hot_goods div.hot_goods_img img{
-  width: auto;
-  height: 380px;
+  width: 380px;
+  height: 420px;
+}
+
+article.hot_goods div.bar{
+  border: 1px solid black;
+  height: 80px;
+  margin-top: 100px ;
 
 }
 
@@ -308,4 +327,6 @@ div.text_{
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
   background-color: #EF6306;
   text-align: center;
+  max-width: 1280px;
+  margin: 0px auto;
 }

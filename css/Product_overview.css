@@ -9,17 +9,18 @@ header.header nav.nav ul.link_list > li > a.Product{
 div.banner {
   position: relative;
   height: 480px;
-  width: 100%;
+  width: 1280px;
   background-image: url("../images/Product_overview/boxes-wooden.jpg/");
   background-size: 100%;
   background-repeat: no-repeat;
-  margin-bottom: 50px;
+  margin: 0px auto;
+
 }
 div.outer_block{
   position: relative;
   /* border: 1px solid black; */
-  width: 100%;
-  margin: 100px auto;
+  width: 1280px;
+  margin: 50px auto;
   display: flex;
 
 }
@@ -168,7 +169,6 @@ div.grid-container {
 }
 div.grid-container div.fish1  {
   text-align: center;
-
   margin: 0px auto;
 
 }
@@ -279,4 +279,6 @@ div.text_{
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
   background-color: #EF6306;
   text-align: center;
+  max-width: 1280px;
+  margin: 0px auto;
 }

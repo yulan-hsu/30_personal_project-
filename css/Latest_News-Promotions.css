@@ -8,30 +8,42 @@ header.header nav.nav ul.link_list > li > a.announcement{
 
 div.banner {
   position: relative;
+  border: 1px solid yellow;
   height: 480px;
+  width: 1280px;
   display: flex;
+  margin: 0px auto;
+
 
 }
 div.banner a.cherries img{
   height: 480px;
   width: 960px;
-  float: left;
+  top:0px;
+  right: 0px;
 }
 div.banner a.text img{
   height: 200px;
   float: right;
-  margin:80px 50px 50px -400px;
+  margin:80px 0px 0px -200px;
 }
 ul.Menu{
+  width: 1280px;
+  height: 100px;
+  border: 1px solid yellow;
   position: relative;
   display: flex;
   list-style: none;
   margin: 0px;
   padding: 0px;
-  margin:-35px 0px 0px 0px;
+  margin:100px 0px 0px 0px;
   float: right;
 }
+ul.Menu li{
+  float: right;
+} 
 ul.Menu li > a{
+  float: right;
   display: inline-block;
   position: relative;
   text-decoration:none;
@@ -62,13 +74,11 @@ ul.Menu > li > a.promotions {
 
 section.Promotions_goods {
   position: relative;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   height: 730px;
-  width: 100%;
-  margin: 100px 0px 90px 0px;
+  width: 1280px;
+  margin: 0px auto;
   background: linear-gradient(to right, #ffffff 50%, #D9D9D9 50%);
-  background-position: right right;
-  float: right;
 }
 section.Promotions_goods div.Promotions_goods_img {
   display: flex;
@@ -101,4 +111,6 @@ div.text_{
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
   background-color: #EF6306;
   text-align: center;
+  max-width: 1280px;
+  margin: 0px auto;
 }

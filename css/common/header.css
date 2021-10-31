@@ -1,8 +1,10 @@
 header.header{
-  width: 100%;
+  width: 1280px;
+  height: 70px;
   margin: 0 auto;
   background-color: #EF6306;
-  position: fixed;
+  position: sticky;
+  position: -webkit-sticky
   z-index: 100;
 }
 header.header::after{
@@ -21,7 +23,6 @@ header.header a.logo_img img{
   width: 150px;
 }
 header.header nav.nav{
-  position: relative;
   display: inline-block;
   vertical-align: middle;
 }

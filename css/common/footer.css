@@ -3,11 +3,12 @@ footer.footer{
   background-color: #EF6306;
   color: black;
   padding: 40px 0;
-  min-width: 100%;
+  max-width: 1280px;
   box-sizing: border-box;
   display: flex;
   font-size: 14px;
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  margin: 0px auto;
 }
 
 footer.footer div.FIND_ME_{

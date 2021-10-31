@@ -5,36 +5,36 @@
 header.header nav.nav ul.link_list > li > a.about_me{
   color: #ffffff;
 }
-
-@import "./common/all.css";
-@import "./common/header.css";
-@import "./common/footer.css";
-
-
 div.banner {
   position: relative;
   height: 480px;
-  width: 41.5%;
-  background-color: #656C74;
-  margin: 0px 0px 35px 650px;
+  width: 1280px;
+  margin: 0px auto;
   display: flex;
-
+}
+div.banner div.shape {
+  height: 430px;
+  width: 430px;
+  background-color: #656C74;
+  margin-left: -100px;
+  border:1px solid black;
+  z-index: -100;
 }
 
-div.banner_img1 {
-  margin: 217px 0px 0px -450px;
+div.banner div.banner_img1 {
+  margin: 150px 0px 0px 80px;
 }
 
-div.banner_img1 img{
-  width: 310px;
+div.banner div.banner_img1 img{
+  width: 360px;
 }
 
-div.banner_img2 {
-  margin: 115px 0px 0px -40px;
+div.banner div.banner_img2 {
+  margin: 50px 0px 0px -40px;
 }
 
-div.banner_img2 img{
-  width: 260px;
+div.banner div.banner_img2 img{
+  width: 320px;
 }
 
 div.color_block{
@@ -85,6 +85,7 @@ div.color_block div.color_block6{
   transform:skew(-20deg, 0deg);
 }
 section.declaration{
+  
   margin: 70px 0px 20px 0px;
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
   display: flex;
@@ -170,6 +171,9 @@ section.declaration  div.declaration3 p {
 article.line1{
   position: relative;
   margin-top: 80px;
+  max-width: 1280px;
+  height: 470px;
+  margin: 0px auto;
 }
 
 h1{
@@ -188,43 +192,44 @@ h2{
 
 }
 article.line1 a.fishes_img img{
-  width: 600px;
+  width: 700px;
   float: right;
-  margin-right:100px;
-  overflow:auto
+  overflow:auto;
 }
 
 article.line1 div.text {
   font-size: 18px;
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
-  margin:35px 0px 0px 140px;
+  margin:60px 0px 0px 140px;
   line-height: 1.5;
 }
 article.line2{
   position: relative;
-
+  max-width: 1280px;
+  height: 220px;
+  margin: 0px auto;
 }
 
 article.line2 div.text {
   font-size: 18px;
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
-  margin:210px 0px 0px 720px;
+  margin:50px 0px 0px 720px;
   line-height: 1.5;
 }
-div.rectangle{
-  border: 7px solid #EF6306;
-  width: 190px;
-  transform: rotate(90deg);
-  transform-origin: 50% 50%;
+article.line2 div.rectangle{
+  height: 140px;
+  background-color: #EF6306;
+  width: 6px;
   float: right;
-  margin:-56px 70px 0px 0px ;
-  z-index: -5;
+  margin:-130px 100px 0px -100px ;
 
 }
 
 article.line3{
+  max-width: 1280px;
+  margin: 0px auto;
   position: relative;
-  margin-top: -200px;
+  margin-top: -300px;
 }
 article.line3 a.cherries_img img{
   width: 425px;
@@ -251,6 +256,9 @@ article.line3 div.text {
 article.line4{
   position: relative;
   z-index: -1;
+  max-width: 1280px;
+  margin: 0px auto;
+  margin-bottom: 60px;
 }
 div.square{
   border: 15px solid #EF6306;
@@ -305,13 +313,15 @@ article.line4 div.color_block div.color_block5{
 
 article.line5{
   position: relative;
-  margin-top: 90px;
+  margin: 0px auto;
   display: flex;
+  max-width: 1280px;
+  height: 700px;
+ 
 }
 
 article.line5 div.color_block {
-  width: 640px;
-  height: 700px;
+  width: 850px;
   background-color: #656C74;
   margin: 0px;
 }
@@ -325,7 +335,6 @@ margin-bottom:-40px;
 
 }
 article.line5 div.text div.text1  h3{
-
   font-size: 24px;
   padding: 10px 0px 0px 440px;
   margin:0px 0px -13px 00px;
@@ -341,18 +350,21 @@ article.line5 div.text div.text1  h4{
 article.line5 div.text div.text2 {
   padding: 15px 0px 10px 50px;
   font-size: 14px;
-  margin: 0px 100px 0px 0px;
+
 }
 
 article.line6{
   position: relative;
-  margin:-180px 0px 90px 100px;
+  margin: 0px auto;
+  margin-top: -200px;
+  max-width: 1280px;
+  padding-left: 260px;
+  margin-bottom: 60px;
 }
 
 article.line6 a img{
   width: 300px;
   padding-right: 30px;
-  margin:0px;
 }
 
 div.text_{
@@ -360,4 +372,6 @@ div.text_{
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
   background-color: #EF6306;
   text-align: center;
+  max-width: 1280px;
+  margin: 0px auto;
 }

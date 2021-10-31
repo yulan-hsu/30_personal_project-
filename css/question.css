@@ -7,9 +7,8 @@ header.header nav.nav ul.link_list > li > a.question{
 }
 
 div.banner {
-  position: relative;
   height: 480px;
-  width: 100%;
+  width: 1280px;
   background-color: #ffffff;
   background-image: url("../images/question/5672795.jpg");
   background-repeat: no-repeat;
@@ -20,15 +19,13 @@ div.banner {
 
 }
 div.outer_block{
-  position: relative;
-  /* border: 1px solid black; */
-  width: 100%;
-  margin: 100px auto;
+  width: 1280px;
+  margin: 30px auto;
   display: flex;
 
 }
 div.left_block{
-  /* border: 1px solid red; */
+  width: 70%;
   margin-right: 40px;
   flex-basis: 750px;
   flex-shrink: 0;
@@ -181,7 +178,6 @@ div.left_block  div.Q14  i.Q img{
 }
 
 div.right_block{
-  /* border: 1px solid blue; */
   flex-grow: 1;
 }
 
@@ -239,4 +235,6 @@ div.text_{
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
   background-color: #EF6306;
   text-align: center;
+  width: 1280px;
+  margin: 0px auto;
 }
