@@ -7,6 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>小許嚴選</title>
     <link href="./css/Latest_news-new_products.css" rel="stylesheet">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.waterwheelCarousel.js"></script>
+
+    <style type="text/css">
+
+      #carousel {
+        width:1280px;
+        border:1px solid #222;
+        height:700px;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        background:#FFF;
+        margin: 0px auto;
+      }
+      #carousel img {
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+      }
+    </style>
+
   </head>
 
   <body>
@@ -43,7 +64,13 @@
           <li><a href="./Latest_News-Promotions.html" class="promotions">優惠活動</a></li>
       </ul>
      </div>
-    <div class="products">
+     <div id="carousel">
+      <img src="./images/Latest_news-official_announcement/DSC09388.JPG" id="item-1" />
+      <img src="./images/Latest_news-official_announcement/DSC09468.JPG" id="item-2" />
+      <img src="/images/Latest_news-official_announcement/DSC09401.JPG" id="item-3" />
+    </div>
+
+    <!-- <div class="products">
       <div class="products_img1">
         <img src="./images/Latest_news-official_announcement/DSC09388.JPG" alt="">
       </div>
@@ -53,7 +80,7 @@
       <div class="products_img3">
         <img src="./images/Latest_news-official_announcement/DSC09401.JPG" alt="">
       </div>
-    </div>
+    </div> -->
 
     <footer class="footer">
       <div class="FIND_ME">
@@ -96,6 +123,46 @@
     </footer>
     <div class="text_">本網站為緯育TibaMe前端工程師專業技術養成班第72期學員專題作品，本平台僅供學習、展示之用。參考資源:mercci22  。
       若有侵權疑慮，您可以私訊 [緯育TibaMe] ，後續會由專人協助處理</div>
+
+      <script type="text/javascript">
+        $(document).ready(function () {
+          var carousel = $("#carousel").waterwheelCarousel({
+            flankingItems: 3,
+            movingToCenter: function ($item) {
+              $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
+            },
+            movedToCenter: function ($item) {
+              $('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
+            },
+            movingFromCenter: function ($item) {
+              $('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
+            },
+            movedFromCenter: function ($item) {
+              $('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
+            },
+            clickedCenter: function ($item) {
+              $('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
+            }
+          });
+  
+          $('#prev').bind('click', function () {
+            carousel.prev();
+            return false
+          });
+  
+          $('#next').bind('click', function () {
+            carousel.next();
+            return false;
+          });
+  
+          $('#reload').bind('click', function () {
+            newOptions = eval("(" + $('#newoptions').val() + ")");
+            carousel.reload(newOptions);
+            return false;
+          });
+  
+        });
+      </script>
   </body>
 
   </html>
