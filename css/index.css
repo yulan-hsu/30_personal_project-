@@ -4,16 +4,18 @@
 
 
 div.banner {
+  width: 100%;
+  max-width: 1100px;
   height: 480px;
-  width: 1180px;
   background-image: url("../images/index/apples-white-wooden-box.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0px auto;
 }
 div.box_top {
-  width: 1280px;
+  width: 100%;
   height: 40px;
+  max-width: 1280px;
   border: 2px solid black;
   background: #ffffff;
   font-size: 14px;
@@ -21,10 +23,12 @@ div.box_top {
   margin: 0px auto;
   background-position: center center;
   box-shadow: 3px -3px black;
-  padding: 10px;
+
 }
+
 div.ribbon {
-  width: 1280px ;
+  width: 100%;
+  max-width: 1280px;
   height: 150px;
   margin: 0px auto;
 }
@@ -33,8 +37,9 @@ div.ribbon a img {
   float:right;
 }
 div.about_me {
-  /* border:1px solid teal; */
-  width: 1280px;
+
+  width: 100%;
+  max-width: 1280px;
   height: 600px;
   position: relative;
   box-sizing: border-box;
@@ -45,7 +50,9 @@ div.about_me {
   grid-column-gap: 0px;
 }
 div.about_me div.about_me1 {
-  width: 100px;
+  width: 100%;
+  max-width: 100px;
+  margin-left: 30px;
 }
 div.about_me div.about_me1 h1{
   font-size: 36px;
@@ -54,19 +61,20 @@ div.about_me div.about_me1 h1{
   font-family: "王漢宗細黑體繁", "Chalkboard SE","Monotype Corsiva";
   transform: rotate(90deg);
   transform-origin: 50% 50%;
-  margin:80px 0px 0px -50px;
+  margin:80px 0px 0px -60px;
 }
 div.about_me div.about_me1 div.line1 {
   width: 1.5px;
-  height: 400px;
+  height: 375px;
   background:black;
-  margin: 20px 0px 0px 45px ;
+  margin: 20px 0px 0px 35px ;
 
 }
 div.about_me div.about_me2 {
+  width: 100%;
+  max-width: 300px;
   position: relative;
-  width: 330px;
-  margin: 0px;
+  margin-left: 60px;
 
 }
 div.about_me div.about_me2 pre {
@@ -80,7 +88,7 @@ div.about_me div.about_me2 p {
   font-size: 14px;
   color: #000000;
   font-family: "王漢宗細黑體繁", "Chalkboard SE","Monotype Corsiva";
-  margin:30px 0px 0px 0px;
+  margin:100px 0px 0px 0px;
   line-height: 2;
 }
 div.about_me div.about_me2 a.more1{
@@ -96,8 +104,9 @@ div.about_me div.about_me2 a.more1{
 }
 div.about_me div.about_me3   {
     position: relative;
-    margin:0px 0px 0px 0px;
-    width: 400px;
+    width:100%;
+    max-width: 400px;
+    margin:0px;
     margin-left: 50px;
 }
 div.about_me div.about_me3 a.img img{
@@ -109,7 +118,7 @@ div.about_me div.about_me3  p.text {
   font-family: "王漢宗細黑體繁";
 }
 div.about_me  div.about_me3 div.line2 {
-  width: 250px;
+  width: 280px;
   height: 1.5px;
   background:black;
   margin: -10px 0px 0px 140px ;
@@ -117,27 +126,31 @@ div.about_me  div.about_me3 div.line2 {
 
 }
 div.about_me div.about_me4   {
-    margin:0px 0px 0px 40px;
-    width: 250px;
+    width:100%;
+    max-width: 240px;
+    margin:0px 0px 0px 20px;
+
 }
 div.about_me div.about_me4 a.img img {
   width: 240px;
-  margin:280px 0px 0px 0px;
+  margin:230px 0px 0px 0px;
 }
 div.about_me div.about_me4 p.text  {
-  margin:-360px 0px 0px 85px;
+  margin:-410px 0px 0px 0px;
   font-family: "王漢宗細黑體繁";
+  float: right;
 }
 
 
 div.about_me div.about_me4 div.line3 {
-  width: 100px;
+  width: 180px;
   height: 1.5px;
   background:black;
-  margin: -10px 0px 0px -60px ;
+  margin: -400px 0px 0px -60px ;
 }
 
 div.about_me  h2 {
+
   font-size: 24px;
   color: #000000;
   font-family:  "Monotype Corsiva";
@@ -148,22 +161,26 @@ div.about_me  h2 {
   height:70px;
   width: 300px;
 }
+div.seasonal_goods_text{
+  width:100%;
+  max-width: 1280px ;
+  margin:0px auto;
+  margin-top: 80px;
 
-h3{
-  width: 1280px ;
+}
+div.seasonal_goods_text h3{
   font-size: 24px;
   color: #000000;
   font-family: "王漢宗細黑體繁", "Chalkboard SE","Monotype Corsiva";
-  margin:0px auto;
-  margin-top: 50px;
-  padding-left:240px;
-
+  margin-left:150px;
 }
 section.Seasonal_goods {
+  width:100%;
+  max-width: 1280px;
   display: flex;
   margin: 50px auto;
   justify-content: center;
-  width: 1280px;
+ 
 
 }
 
@@ -237,47 +254,50 @@ section.Seasonal_goods div.circle{
 }
 section.Seasonal_goods_img div.items_img {
   box-sizing: border-box;
-  width: 1280px;
+  width: 100%;
+  max-width: 1280px;
   height:250px;
   display: grid;
   margin: 0 auto;
   overflow:hidden;
-  border:1px solid black;
   grid-auto-flow: column;
   grid-template-columns: auto auto auto auto ;
+  margin-bottom: 120px;
+  font-size: 0px;
+  grid-gap:0px;
 }
 
 section.Seasonal_goods_img div.items_img a.fishes2 img{
-  width: 350px;
+  width: 280px;
   filter:brightness(0.6);
 
 
 }
 section.Seasonal_goods_img div.items_img a.apples2 img{
-  width: 500px;
+  width: 400px;
 
   filter:brightness(0.6);
 }
 section.Seasonal_goods_img div.items_img a.grapes2 img{
-  width: 450px;
+  width: 350px;
 
   filter:brightness(0.6);
 }
 section.Seasonal_goods_img div.items_img a.cherries2 img{
 
-  width: 350px;
+  width: 250px;
   filter:brightness(0.6);
 }
 
 article.hot_goods{
-  width: 1280px;
+  width: 100%;
+  max-width: 1280px;
   height: 600px;
-  border:1px solid peru;
   background-image: url("../images/index/01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left 500px top 100px ;
-  margin:50px auto;
+  margin:100px auto;
 }
 article.hot_goods h4.hot_goods{
   font-size: 24px;

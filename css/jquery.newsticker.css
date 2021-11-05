@@ -1,0 +1,47 @@
+.newsticker {
+  width: 1280px;
+  height: 40px;
+  border: 2px solid black;
+  background: #ffffff;
+  font-size: 14px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  margin: 0px auto;
+  background-position: center center;
+  box-shadow: 3px -3px black;
+  cursor: default;
+  line-height: 15.6px;
+  position: relative;
+  overflow: hidden;
+}
+
+.newsticker:hover {
+  background: #EF6306;
+}
+
+.newsticker .newsticker-list {
+  position: absolute;
+  top: 8px;
+  margin: 3px 0px 0px 200px;
+
+}
+
+.newsticker .newsticker-list .newsticker-item {
+  height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+div.newsticker  p{
+  font-size: 14px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  margin: 10px 0px 0px 20px;
+}
+div.newsticker a{
+  font-size: 14px;
+  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  padding: 15px;
+  text-decoration: none;
+  float: right;
+  color: black;
+  margin: -30px 20px 0px 0px;
+}

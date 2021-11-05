@@ -21,6 +21,7 @@ div.outer_block{
 }
 
 div.left_block{
+  /* border: 1px solid orange; */
   position: relative;
   margin:0px 0px 0px 100px;
   flex-basis: 550px;
@@ -29,34 +30,28 @@ div.left_block{
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
 }
 
-div.left_block div.big{
-  display: inline-block;
-  font-size: 0px;
+div.left_block div.show{
+  /* border: 1px solid purple; */
+  width:470px; 
+  height:auto; 
+  margin:0px auto;
 }
-div.left_block div.small{
-  display: inline-block;
-  font-size: 0px;
+div.left_block div.show div.item{
+  width:470px; 
+  height:auto; 
+  float:left; 
+  margin:15px;
 }
-div.left_block div.small {
-  margin-top:20px;
+a.big-photo img{ 
+  width:470px; 
+  height:470px; 
 }
-div.left_block a.fish1 img{
-  /* border: 1px solid red; */
-  width: 470px;
+a.des-small img{
+   width:150px; 
+   height:150px;
 }
-div.left_block a.fish2 img{
-  display: inline-block;
-  width: 150px;
-  margin-right: 10px;
-}
-div.left_block a.fish3 img{
-  display: inline-block;
-  width: 150px;
-    margin-right: 10px;
-}
-div.left_block a.fish4 img{
-  display: inline-block;
-  width: 150px;
+div.clear{
+  clear:both
 }
 
 div.right_block{
@@ -103,58 +98,20 @@ div.right_block input{
   -webkit-appearance: none;
   background-color: white;
 }
-div.right_block div.add{
-  background-color: #EF6306;
-  color: black;
+button{
+  background-color: #EF630;
+  color:black
   font-size: 14px;
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
-  width: 80px;
-  text-align: center;
-  margin-top:20px;
 }
 
- div.like {
-  max-width: 1280px;
-  position: relative;
-  margin: 0px auto;
-  justify-content: center;
-  text-align: center;
-}
- div.like a.text{
-  font-size: 18px;
+ h2{
+  width: 1280px;
+  font-size: 24px;
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
-
-}
- div.like div.img{
-   margin: 0px auto;
-   background-color: #D9D9D9;
-   padding: 40px;
-   margin-top: 20px
-}
-
-div.like div.img img{
-  width: 200px;
-  padding: 10px;
-}
-div.like div.img div.triangle1{
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 10px 17.3px 10px 0;
-  border-color: transparent #656C74 transparent transparent;
-  float: left;
-  margin: 90px 0px 0px 80px;
-}
-div.like div.img div.triangle2{
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 10px 0 10px 17.3px;
-  border-color: transparent transparent transparent #656C74;
-  float: right;
-  margin: 90px 80px 0px 0px;
-
-}
+  margin: 0px auto;
+  text-align: center;
+ }
 div.text_{
   font-size: 14px;
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
@@ -163,3 +120,4 @@ div.text_{
   max-width: 1280px;
   margin: 0px auto;
 }
+

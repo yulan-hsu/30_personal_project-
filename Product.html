@@ -7,7 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>小許嚴選</title>
     <link href="./css/Product.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"> 
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <style type="text/css">
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+  
+      * {
+        box-sizing: border-box;
+      }
+  
+      .slider {
+          width: 50%;
+          margin: 30px auto;
+  
+      }
+  
+      .slick-slide {
+        margin: 0px 10px;
+        
+      }
+  
+      .slick-slide img {
+        width: 100%;
+      }
+  
+      .slick-prev:before,
+      .slick-next:before {
+        color: black;
+      }
 
+    </style>
   </head>
 
   <body>
@@ -35,16 +68,23 @@
     <div class="banner"></div>
     <div class="outer_block">
       <div class="left_block">
-        <div class="big">
-          <a class="fish1"><img src="./images/Product/DSC06101.JPG" alt=""></a>
-        </div>
-        <div class="small">
-          <a class="fish2"><img src="./images/Product/DSC06054.JPG" alt=""></a>
-          <a class="fish3"><img src="./images/Product/DSC06693.JPG" alt=""></a>
-          <a class="fish4"><img src="./images/Product/DSC06676.JPG" alt=""></a>
-        </div>
-
-
+        <div class="show">
+          <div class="item">
+           <a class="big-photo">
+            <img src="./images/Product/DSC06693.JPG" alt="big"/>
+           </a>
+           <a class="des-small">
+            <img src="./images/Product/DSC06693.JPG" alt="small"/>
+           </a>
+           <a class="des-small">
+            <img src="./images/Product/DSC06101.JPG" alt="small"/>
+           </a>
+           <a class="des-small">
+            <img src="./images/Product/DSC06054.JPG" alt="small"/>
+           </a>
+          </div>
+          <div class="clear"></div>
+         </div>
       </div>
 
 
@@ -81,21 +121,30 @@
         <input class="min" name="" type="button" value="-" />
         <input class="quantity" name="" type="text" value="1" />
         <input class="add" name="" type="button" value="+" />
-        <div class="add">加入購物車</div>
+        <button type="button">加入購物車</button>
       </div>
     </div>
-    <div class="like">
-      <a class="text">你可能也喜歡</a>
-      <div class="img">
-        <div class="triangle1"></div>
-        <a class="grape"><img src="./images/Product/IMG_7211.JPG" alt=""></a>
-        <a class="cherry"><img src="./images/Product/DSC07390.JPG" alt=""></a>
-        <a class="cantaloupe"><img src="./images/Product/IMG_0146.JPG" alt=""></a>
-        <a class="apple"><img src="./images/Product/IMG_3671.JPG" alt=""></a>
-        <div class="triangle2"></div>
+    <h2>你可能也喜歡</h2>
+    <section class="regular slider">
+      <div>
+        <img src="./images/Product/IMG_7211.JPG">
       </div>
-
-    </div>
+      <div>
+        <img src="./images/Product/DSC07390.JPG">
+      </div>
+      <div>
+        <img src="./images/Product/IMG_0146.JPG">
+      </div>
+      <div>
+        <img src="./images/Product/IMG_0146.JPG">
+      </div>
+      <div>
+        <img src="./images/Product/IMG_3671.JPG">
+      </div>
+      <div>
+        <img src="./images/Product/IMG_7211.JPG">
+      </div>
+    </section>
 
 
 
@@ -140,6 +189,40 @@
   </footer>
   <div class="text_">本網站為緯育TibaMe前端工程師專業技術養成班第72期學員專題作品，本平台僅供學習、展示之用。參考資源:mercci22。
     若有侵權疑慮，您可以私訊 [緯育TibaMe] ，後續會由專人協助處理</div>
+
+
+
+    <script type="text/javascript">
+      $(function() {
+       /** 更换小图片 */
+       $(".item a").hover(function(){
+        changeImg($(this))
+       });
+      });
+      function changeImg(obj){
+       if(obj.find("img").attr("alt")=="small"){
+        var temp_big_src = obj.siblings('a').find('img[alt=big]').attr('src');
+        var temp_big_url = obj.siblings('a[class=big-photo]').attr('href');
+        var temp_small_src = obj.find('img').attr('src');
+        var temp_small_url = obj.attr('href');
+        obj.siblings('a').find('img[alt=big]').attr('src',temp_small_src);
+       }
+      }
+     </script>
+       <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+       <script src="./js/slick.js" type="text/javascript" charset="utf-8"></script>
+       <script type="text/javascript">
+         $(document).on('ready', function() {
+     
+           $(".regular").slick({
+             dots: true,
+             infinite: true,
+             slidesToShow: 3,
+             slidesToScroll: 3
+           });
+     
+         });
+     </script>
 </body>
 
 </html>
