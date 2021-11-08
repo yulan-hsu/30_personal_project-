@@ -1,78 +1,28 @@
 @import "./common/all.css";
 @import "./common/header.css";
 @import "./common/footer.css";
+@import "./buttons.css";
 
 header.header nav.nav ul.link_list > li > a.announcement{
   color: #ffffff;
 }
 
 div.banner {
-  position: relative;
-  border: 1px solid yellow;
-  height: 480px;
-  width: 1280px;
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
+  width: 100%;
+  max-width: 1280px;
+  font-size: 0px;
   margin: 0px auto;
-
+  position: relative;
 
 }
-div.banner a.cherries img{
-  height: 480px;
+div.banner div.sales img{
   width: 960px;
   top:0px;
   right: 0px;
 
 }
-div.banner a.text img{
-  height: 200px;
-  float: right;
-  margin:80px 0px 0px -200px;
-}
-div.list{
-  width: 1280px;
-  height: 80px;
-  margin: -50px auto;
-  
-}
-div.list ul.Menu{
-  display: flex;
-  border: 1px solid peru;
-  float: right;
-  list-style: none;
-  padding: 0px;
-  z-index: 100;
-}
-div.list ul.Menu li > a{
-  display: inline-block;
-  text-decoration:none;
-  width: 170px;
-  height: 80px;
-  background: #D9D9D9;
-  font-size: 18px;
-  font-family: "王漢宗細黑體繁", "Chalkboard SE";
-  color: #000000;
-  padding: 25px ;
-  text-align: center;
-}
 
-ul.Menu > li > a.announcement {
-  margin-right: 15px;
-}
 
-ul.Menu > li > a.new_products {
-  margin-right:15px;
-}
-ul.Menu li > a:hover {
-  background-color: #656C74;
-  color: white;
-}
-ul.Menu > li > a.promotions {
-  background: #656C74;
-  color: #ffffff;
-}
-/* 
 section.Promotions_goods {
   position: relative;
   border: 1px solid black;
@@ -105,7 +55,7 @@ section.Promotions_goods div.Promotions_goods3 img {
   border: 10px solid #656C74;
   margin:310px 30px 0px 0px;
 }
- */
+ 
 
 div.text_{
   font-size: 14px;

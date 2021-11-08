@@ -14,17 +14,18 @@
 
       #carousel {
         width:1280px;
-        border:1px solid #222;
         height:700px;
         position:relative;
         clear:both;
         overflow:hidden;
-        background:#FFF;
-        margin: 0px auto;
+        margin: 100px auto;
+     
       }
       #carousel img {
+       
         visibility:hidden; /* hide images until carousel can handle them */
         cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+
       }
     </style>
 
@@ -43,6 +44,7 @@
         </div>
       </div>
         <nav class="nav">
+          
           <ul class="link_list">
             <li><a href="./Latest_news-official_announcement.html" class="announcement">最新消息</a></li>
             <li><a href="./contact.html" class="about_me">關於我們</a></li>
@@ -54,33 +56,24 @@
     </header>
 
     <div class="banner">
-      <a href="#" class="img"><img src="./images/Latest_news-official_announcement/IMG_5932.JPG" alt=""></a>
-      <a href="#" class="text"><img src="./images/Latest_news-official_announcement/23344-02.png" alt=""></a>
+      <div class="img"><img src="./images/Latest_news-official_announcement/IMG_5932.JPG" alt=""></div>
+      <div class="text"><img src="./images/Latest_news-official_announcement/23344-02.png" alt=""></div>
     </div>
-    <div class="list">
-      <ul class="Menu">
-          <li><a href="./Latest_news-official_announcement.html" class="announcement">官方公告</a></li>
-          <li><a href="./Latest_news-new_products.html" class="new_products">新品上市</a></li>
-          <li><a href="./Latest_News-Promotions.html" class="promotions">優惠活動</a></li>
-      </ul>
-     </div>
+
+    <section class="content">
+      <div class="boxbg-2">
+        <button class="button button--wapasha button--text-thick button--text-upper button--size-s" onclick="window.location.href='./Latest_news-official_announcement.html'">官方公告</button>
+        <button class="button button--wapasha button--text-thick button--text-upper button--size-m" onclick="window.location.href='./Latest_news-new_products.html'">新品上市</button>
+        <button class="button button--wapasha button--text-thick button--text-upper button--size-l" onclick="window.location.href='./Latest_News-Promotions.html'">優惠活動</button>
+      </div>
+    </section>
+
      <div id="carousel">
       <img src="./images/Latest_news-official_announcement/DSC09388.JPG" id="item-1" />
       <img src="./images/Latest_news-official_announcement/DSC09468.JPG" id="item-2" />
-      <img src="/images/Latest_news-official_announcement/DSC09401.JPG" id="item-3" />
+      <img src="./images/Latest_news-official_announcement/DSC09401.JPG" id="item-3" />
     </div>
 
-    <!-- <div class="products">
-      <div class="products_img1">
-        <img src="./images/Latest_news-official_announcement/DSC09388.JPG" alt="">
-      </div>
-      <div class="products_img2">
-        <img src="./images/Latest_news-official_announcement/DSC09468.JPG" alt="">
-      </div>
-      <div class="products_img3">
-        <img src="./images/Latest_news-official_announcement/DSC09401.JPG" alt="">
-      </div>
-    </div> -->
 
     <footer class="footer">
       <div class="FIND_ME">
@@ -162,6 +155,16 @@
           });
   
         });
+      </script>
+      
+      <!-- 按鈕 -->
+      <script>
+        (function() {
+          var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
+          if(isSafari) {
+            document.getElementById('support-note').style.display = 'block';
+          }
+        })();
       </script>
   </body>
 

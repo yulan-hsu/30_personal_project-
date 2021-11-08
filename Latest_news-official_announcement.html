@@ -34,16 +34,17 @@
     </header>
 
     <div class="banner">
-      <a href="#" class="cherries"><img src="./images/Latest_news-official_announcement/DSC07404.JPG" alt=""></a>
-      <a href="#" class="text"><img src="./images/Latest_news-official_announcement/1111-10-01.png" alt=""></a>
+      <div class="cherries"><img src="./images/Latest_news-official_announcement/DSC07404.JPG" alt=""></div>
+      <div class="text"><img src="./images/Latest_news-official_announcement/1111-10-01.png" alt=""></div>
     </div>
-    <div class="list">
-      <ul class="Menu">
-          <li><a href="./Latest_news-official_announcement.html" class="announcement">官方公告</a></li>
-          <li><a href="./Latest_news-new_products.html" class="new_products">新品上市</a></li>
-          <li><a href="./Latest_News-Promotions.html" class="promotions">優惠活動</a></li>
-      </ul>
-     </div>
+  
+    <section class="content">
+      <div class="boxbg-2">
+        <button class="button button--wapasha button--text-thick button--text-upper button--size-s" onclick="window.location.href='./Latest_news-official_announcement.html'">官方公告</button>
+        <button class="button button--wapasha button--text-thick button--text-upper button--size-m" onclick="window.location.href='./Latest_news-new_products.html'">新品上市</button>
+        <button class="button button--wapasha button--text-thick button--text-upper button--size-l" onclick="window.location.href='./Latest_News-Promotions.html'">優惠活動</button>
+      </div>
+    </section>
 
     <article class="news">
       <div class="news1">
@@ -125,6 +126,16 @@
     </footer>
     <div class="text_">本網站為緯育TibaMe前端工程師專業技術養成班第72期學員專題作品，本平台僅供學習、展示之用。參考資源:mercci22。
       若有侵權疑慮，您可以私訊 [緯育TibaMe] ，後續會由專人協助處理</div>
+
+      <!-- 按鈕 -->
+      <script>
+        (function() {
+          var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
+          if(isSafari) {
+            document.getElementById('support-note').style.display = 'block';
+          }
+        })();
+      </script>
   </body>
 
   </html>

@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>小許嚴選</title>
     <link href="./css/question.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
   <body>
@@ -36,7 +38,68 @@
     <div class="outer_block">
       <div class="left_block">
         <h1>常見問題</h1>
-        <div class="Q1">
+        <div class="demo">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-offset-3 col-md-6">
+                      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                          <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="headingOne">
+                                  <h4 class="panel-title">
+                                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                          <i class="Q"><img src="./images/question/question.png" alt=""></i>
+                                          Section 1
+                                      </a>
+                                  </h4>
+                              </div>
+                              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                  <div class="panel-body">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="headingTwo">
+                                  <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                          <i class="Q"><img src="./images/question/question.png" alt=""></i>
+                                          Section 2
+                                      </a>
+                                  </h4>
+                              </div>
+                              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                  <div class="panel-body">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="headingThree">
+                                  <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                          <i class="Q"><img src="./images/question/question.png" alt=""></i>
+                                          Section 3
+                                      </a>
+                                  </h4>
+                              </div>
+                              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                  <div class="panel-body">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+	<script>window.jQuery || document.write('<script src="./js/jquery-1.11.0.min.js"><\/script>')</script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- <div class="Q1">
           <i class="Q"><img src="./images/question/question.png" alt=""></i>
           <a class="text">我們付款方式有哪些？</a>
         </div>
@@ -91,7 +154,7 @@
         <div class="Q14">
           <i class="Q"><img src="./images/question/question.png" alt=""></i>
           <a class="text">買多少可以免運費呢？</a>
-        </div>
+        </div> -->
 
       </div>
       <div class="right_block">

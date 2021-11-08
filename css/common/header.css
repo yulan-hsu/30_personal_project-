@@ -1,11 +1,12 @@
 header.header{
   width: 1280px;
-  height: 70px;
+  height: 60px;
   margin: 0 auto;
   background-color: #EF6306;
-  position: sticky;
-  position: -webkit-sticky
+  position: fixed;
   z-index: 100;
+  position: relative;
+  font-size: 0px;
 }
 header.header::after{
   content: "";
@@ -15,7 +16,7 @@ header.header::after{
 header.header a.logo_img{
   display: inline-block;
   vertical-align: middle;
-  margin: 2px 40px 0px 60px;
+  margin: -2px 40px 0px 60px;
   float: left;
 
 }
@@ -38,7 +39,7 @@ header.header nav.nav ul.link_list > li{
 header.header nav.nav ul.link_list > li > a{
   display: inline-block;
   text-decoration: none;
-  padding: 20px 10px;
+  padding: 17px 10px;
   min-width: 100px;
   text-align: center;
   color: #000000;
