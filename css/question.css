@@ -27,9 +27,9 @@ div.outer_block{
 
 }
 div.left_block{
-  border: 1px solid blue;
-  width: 70%;
-  flex-basis: 750px;
+  /* border: 1px solid blue; */
+  width: 60%;
+  flex-basis: 650px;
   flex-shrink: 0;
   font-size: 18px;
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
@@ -43,6 +43,7 @@ div.left_block h1{
 		    outline: none;
 		}
 		#accordion .panel{
+			
 		    border: none;
 		    border-radius: 0;
 		    box-shadow: none;
@@ -51,6 +52,7 @@ div.left_block h1{
 		    position: relative;
 		}
 		#accordion .panel-heading{
+			
 		    padding: 0;
 		    border: none;
 		    border-radius: 0;
@@ -59,10 +61,13 @@ div.left_block h1{
 		    position: relative;
 		}
 		#accordion .panel-title a{
+			
+			text-decoration: none;
+		    outline: none;
 			border-bottom: 1px  dashed #000;
 		    display: block;
-		    padding: 15px 70px 15px 70px;
-		    margin: 0;
+		    padding: 15px 60px 15px 60px;
+		    margin: 0px;
 		    background: #fff;
 		    font-size: 18px;
 		    font-weight: 700;
@@ -96,11 +101,12 @@ div.left_block h1{
 		    left: 0;
 		}
 		#accordion .panel-body{
+			
 		    padding: 10px 20px;
 		    margin: 0 0 20px;
 		    border-top: none;
 		    background: #fff;
-		    font-size: 15px;
+		    font-size: 16px;
 		    color: #333;
 		    line-height: 27px;
 		}
@@ -108,7 +114,10 @@ div.left_block h1{
 			width: 30px;
 			margin-left: -60px;
 		}
-
+		div.demo{
+			/* border: 1px solid blue; */
+			margin-left:-210px ;
+		}
 
 div.right_block{
   flex-grow: 1;
