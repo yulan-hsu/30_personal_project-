@@ -168,17 +168,32 @@ div.grid-container {
   gap: 20px;
 }
 div.grid-container div.fish1  {
+  position:relative;
   text-align: center;
   margin: 0px auto;
+  width: 230px;
 
 }
 div.grid-container div.fish1 a {
   text-decoration:none;
   color: black;
+  
 }
-div.fish1 a img{
+div.fish1  img{
   width: 230px;
+  /* position:absolute; */
+  /* 淡出淡入效果1秒 */
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+ 
 }
+div.fish1  img:last-child:hover{
+  /* 滑入時第一張透明度設0 */
+   opacity:0;
+}
+
 div.grid-container div.fish2  {
   text-align: center;
 

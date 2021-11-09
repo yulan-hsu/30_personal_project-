@@ -33,6 +33,11 @@ article.news{
  
 
 }
+@keyframes fadein {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 1;}
+}
 
 article.news div.news1{
   height: 230px;
@@ -41,7 +46,7 @@ article.news div.news1{
   margin:105px 0px 80px 0px;
   display:flex;
   align-items: center ;
-
+  animation: fadein 6s ease;
   /* justify-content: center; */
 }
 
@@ -102,6 +107,7 @@ article.news div.news2{
   display:flex;
   align-items: center ;
   margin-bottom: 80px;
+  animation: fadein 6s ease;
 }
 
 article.news div.news2 div.date{
@@ -155,6 +161,7 @@ article.news div.news3{
   margin:80px 0px 80px 0px;
   display:flex;
   align-items: center ;
+  animation: fadein 6s ease;
 }
 
 article.news div.news3 div.date{

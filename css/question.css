@@ -17,18 +17,19 @@ div.banner {
   background-size:contain;
   background-position: center center;
   margin: 0px auto;
-  padding: 100px ;
+ 
 
 }
 div.outer_block{
   width: 1280px;
-  margin: 30px auto;
+  margin: 0px auto;
   display: flex;
+  margin-bottom: 50px;
 
 }
 div.left_block{
   /* border: 1px solid blue; */
-  width: 60%;
+  width: 57%;
   flex-basis: 650px;
   flex-shrink: 0;
   font-size: 18px;
@@ -37,6 +38,7 @@ div.left_block{
 div.left_block h1{
   font-size: 24px;
   margin-left: 100px;
+  margin-bottom: 20px;
 }
 	    a:hover,a:focus{
 		    text-decoration: none;
@@ -121,6 +123,7 @@ div.left_block h1{
 
 div.right_block{
   flex-grow: 1;
+  margin-top: 40px;
 }
 
 div.right_block div.q1{

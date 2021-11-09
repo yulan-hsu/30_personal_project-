@@ -12,6 +12,74 @@ div.banner {
   color: white;
 }
 
+div.breadcrumb{
+  padding: 5px 10px;
+  margin: -50px 0px 20px 40px;
+  border-radius: 5px;
+}
+div.breadcrumb ol.breadcrumb_list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+div.breadcrumb ol.breadcrumb_list > li{
+/*   border: 1px solid red; */
+  display: inline-block;
+  color: #EF6306;
+  font-size: 18px;
+}
+
+
+
+/* 利用 ::before 擬似元素，創造斜線做為分隔 */
+div.breadcrumb ol.breadcrumb_list > li::before{
+  content: "/";
+  font-size: 18px;
+  color: gray;
+  margin: 0 10px;
+}
+/* 第一個 li 元素，將 ::before 設定回來需要的 */
+div.breadcrumb ol.breadcrumb_list > li:first-child::before{
+  display: none;
+}
+
+
+/* 基本文字樣式 */
+div.breadcrumb ol.breadcrumb_list > li > a{
+  /* border: 1px solid blue; */
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+/* 滑動移過後改變文字顏色 */
+div.breadcrumb ol.breadcrumb_list > li > a:hover{
+  color: #EF6306;
+}
+
+div.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* border: 1px solid black; */
+  font-size: 16px;
+  margin: 20px 60px 0px 60px;
+  /* padding: 30px; */
+  gap: 20px;
+}
+div.grid-container div.fish1  {
+  position:relative;
+  text-align: center;
+  margin: 0px auto;
+  width: 230px;
+
+}
+div.grid-container div.fish1 a {
+  text-decoration:none;
+  color: black;
+  
+}
+
 div.outer_block{
   position: relative;
   width: 1280px;
