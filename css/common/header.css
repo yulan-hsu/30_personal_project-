@@ -1,68 +1,207 @@
-header.header{
-  width: 1280px;
-  height: 60px;
-  margin: 0 auto;
-  background-color: #EF6306;
-  position: fixed;
-  z-index: 100;
-  position: relative;
-  font-size: 0px;
+body {
+  margin: 0;
 }
-header.header::after{
-  content: "";
-  display: block;
+
+div.header a.logo_img{
+display: inline-block;
+vertical-align: middle;
+margin: -2px 40px 0px 40px;
+float: left;
+
+}
+div.header a.logo_img img{
+width: 140px;
+padding: 20px auto;
+}
+
+div.header div.right_icon{
+position: relative;
+display: flex;
+float: right;
+padding: 12px 60px;
+}
+div.header div.right_icon_img img{
+width: 30px;
+padding: 7px 6px 4px 6px;
+}
+.clearfix {
   clear: both;
 }
-header.header a.logo_img{
-  display: inline-block;
-  vertical-align: middle;
-  margin: -2px 40px 0px 60px;
-  float: left;
 
+nav {
+  font-family: Helvetica;
+  text-align: left;
+  text-transform: uppercase;
+  background-color: #EF6306;
 }
-header.header a.logo_img img{
-  width: 150px;
-}
-header.header nav.nav{
-  display: inline-block;
-  vertical-align: middle;
-}
-header.header nav.nav ul.link_list{
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
-header.header nav.nav ul.link_list > li{
-  display: inline-block;
 
+nav ul {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  list-style-type: none;
 }
-header.header nav.nav ul.link_list > li > a{
+
+nav ul li {
   display: inline-block;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
   text-decoration: none;
-  padding: 17px 10px;
-  min-width: 100px;
-  text-align: center;
-  color: #000000;
-  font-size: 16px;
-  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+  display: inline-block;
+  padding: 1em;
+  box-sizing: border-box;
+  font-family: "微軟正黑體";
 }
 
-header.header nav.nav ul.link_list > li > a:hover{
-color: #ffffff;
+nav ul li a:hover {
+  color: white;
 }
-header.header div.right_icon{
-  position: relative;
-  display: flex;
-  float: right;
-  padding: 18px 60px;
+
+.current_page a {
+  color: white;
 }
-header.header div.right_icon_img img{
-  width: 30px;
-  padding: 7px 6px 4px 6px;
+
+#menu_button_wrapper{
+  display: none;
 }
-header.header div.right_icon  a.language{
-  color: #000000;
-  font-size: 16px;
-  padding: 3px 10px 4px 6px;
-  font-family: "王漢宗細黑體繁", "Chalkboard SE";
+
+.hidden {
+  display: none;
 }
+
+/* Responsive for smaller screens */
+
+@media (max-width: 921px) {
+  #menu_button_wrapper{
+
+      display: block;
+      padding: 1em;
+      color: #9d9d9d;
+      /* border-bottom: 1px solid #101010; */
+      /* -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.1); */
+      /* box-shadow: 0 1px 0 rgba(255,255,255,.1); */
+      margin-bottom: 10px;
+
+  }
+
+  #menu_button {
+      box-sizing: border-box;
+      border-radius: 5px;
+      color: black;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+
+  #menu_button:hover {
+      cursor: pointer;
+      /* background-color: #333; */
+  }
+
+  #hamburger {
+  margin-top: -12px;
+  
+  }
+
+  #menu_button span{
+      display: block;
+      background-color: black;
+      width: 1.2em;
+      height: .15em;
+      border-radius: 1px;
+      margin-bottom: 5px;
+
+  }
+
+  nav ul {
+    text-align: center;
+    height: 100vh;
+      width: 100%;
+      background-color: white;
+      margin: 0 auto;
+      padding: 100px;
+      box-sizing: border-box;
+  }
+
+  nav ul li {
+      display: block;
+  }
+
+  nav ul li a {
+      width: 100%;
+  }
+  nav ul li a:hover {
+    color: #EF6306;
+  }
+  nav ul li.current_page a {
+      color: #EF6306;
+  }
+  div.header a.logo_img img{
+    width: 120px;
+    padding: 10px auto;
+    margin: 10px 0px 0px 150px;
+    }
+  div.header div.right_icon{
+      margin: 4px -50px 0px 0px;
+      }
+}
+
+
+
+@media (max-width: 768px) {
+  #menu_button_wrapper{
+      margin-bottom: 10px;
+
+  }
+
+  div.header a.logo_img img{
+    width: 120px;
+    padding: 10px auto;
+    margin: 10px 0px 0px 260px;
+    }
+}
+
+@media (max-width: 576px) {
+
+  div.header a.logo_img img{
+    width: 120px;
+    padding: 10px auto;
+    margin: 10px 0px 0px 160px;
+    }
+}
+
+@media (max-width: 375px) {
+  div.header a.logo_img img{
+    width: 120px;
+    padding: 10px auto;
+    margin: 10px 0px 0px 40px;
+    }
+  div.header div.right_icon{
+    margin: -50px -50px 0px 0px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    div.header a.logo_img img{
+      width: 100px;
+      padding: 10px auto;
+      margin: 10px 0px 0px 30px;
+      }
+    div.header div.right_icon{
+      margin: -45px -50px 0px 0px;
+      }
+      div.header div.right_icon_img img{
+      width: 25px;
+      }
+      #hamburger {
+        margin-top: -18px;
+        
+        }
+
+    }

@@ -14,14 +14,10 @@
   overflow: hidden;
 }
 
-.newsticker:hover {
-  background: #EF6306;
-}
-
 .newsticker .newsticker-list {
   position: absolute;
   top: 8px;
-  margin: 3px 0px 0px 200px;
+  margin: 3px 0px 0px 400px;
 
 }
 

@@ -6,16 +6,25 @@ header.header nav.nav ul.link_list > li > a.about_me{
   color: #ffffff;
 }
 div.banner {
-  
+  border: 1px solid seagreen;
   top:-10px;
-  height: 480px;
   width: 1280px;
-  margin: 0px auto;
+  margin: 0 auto;
   display: flex;
   
 }
-div.banner div.shape {
+div.banner .banner_img1{
+  border: 1px solid blue;
 
+  
+}
+div.banner .banner_img2{
+  border: 1px solid darkgoldenrod;
+
+  
+}
+div.banner div.shape {
+  border: 1px solid darkmagenta;
   height: 460px;
   width: 430px;
   background-color: #656C74;
@@ -40,7 +49,6 @@ div.banner div.banner_img2 img{
 }
 
 div.color_block{
-  
   display: flex;
   margin-left: 105px;
 }
@@ -88,7 +96,7 @@ div.color_block div.color_block6{
 }
 section.declaration{
   
-  margin: 70px 0px 20px 0px;
+  margin: 70px 0px 70px 0px;
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
   display: flex;
   justify-content: center;
@@ -106,6 +114,7 @@ section.declaration  div.declaration1 div.circle1 {
   width: 150px;
   border-radius: 99em;
   margin: 0px auto;
+  
 
 }
 section.declaration div.declaration1 pre {
@@ -116,7 +125,6 @@ section.declaration div.declaration1 pre {
 }
 section.declaration  div.declaration1 p {
   font-size: 18px;
-
 
 }
 section.declaration div.declaration2{
@@ -174,7 +182,7 @@ article.line1{
   position: relative;
   margin-top: 80px;
   max-width: 1280px;
-  height: 470px;
+  /* height: 470px; */
   margin: 0px auto;
 }
 
@@ -208,14 +216,16 @@ article.line1 div.text {
 article.line2{
   position: relative;
   max-width: 1280px;
-  height: 220px;
-  margin: 0px auto;
+  width: 100%;
+  /* height: 220px; */
+  margin: 0 auto;
+  margin-top: 260px;
 }
 
 article.line2 div.text {
   font-size: 18px;
   font-family: "王漢宗細黑體繁", "Chalkboard SE";
-  margin:50px 0px 0px 720px;
+  margin:0px 0px 0px 720px;
   line-height: 1.5;
 }
 article.line2 div.rectangle{
@@ -223,23 +233,23 @@ article.line2 div.rectangle{
   background-color: #EF6306;
   width: 6px;
   float: right;
-  margin:-130px 100px 0px -100px ;
-
+  margin:-146px 100px 0px -100px ;
+  z-index: -6;
 }
 
 article.line3{
   max-width: 1280px;
-  margin: 0px auto;
+  margin: 0 auto;
   position: relative;
-  margin-top: -300px;
+  margin-top: -190px;
 }
 article.line3 a.cherries_img img{
   width: 425px;
-  margin:-50px 0px 0px 240px;
+  margin:-80px 0px 0px 240px;
 }
 article.line3 a.cantaloupe_img img{
   width: 360px;
-  margin:-150px 0px 0px 664px;
+  margin:-120px 0px 0px 664px;
 }
 article.line3 div.box{
   margin:-485px 0px 0px 100px;

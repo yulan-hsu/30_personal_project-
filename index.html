@@ -9,59 +9,97 @@
     <link href="./css/index.css" rel="stylesheet">
     <link href="./css/index_mobile.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset-font-min.css">
-    <link rel="stylesheet" href="./css/jquery.newsticker.css">
-    
-    
-    
-
+    <link rel="stylesheet" href="./css/jquery.newsticker.css">  
+     <!-- banner -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
   </head>
 
   <body>
-    <header class="header">
+    <div class="header">
       <a href="./index.html" class="logo_img"><img src="./images/icon/logo_img.png" alt=""></a>
       <div class="right_icon">
-        <a class="language">語言</a>
-        <div class="right_icon_img"></a>
-          <a href="#" class="search"><img src="./images/icon/search.png" alt=""></a>
-          <a href="#" class="user"><img src="./images/icon/user.png" alt=""></a>
-          <a href="#" class="tool"><img src="./images/icon/tool.png" alt=""></a>
-          <a href="#" class="line"><img src="./images/icon/line.png" alt=""></a>
+          <div class="right_icon_img"></a>
+            <a href="#" class="search"><img src="./images/icon/search.png" alt=""></a>
+            <a href="#" class="user"><img src="./images/icon/user.png" alt=""></a>
+            <a href="#" class="tool"><img src="./images/icon/tool.png" alt=""></a>
+            <a href="#" class="line"><img src="./images/icon/line.png" alt=""></a>
+          </div>
+        </div>
+      <nav>
+              <div id="menu_button_wrapper">
+                  <div id="menu_button">
+                    &nbsp;
+                      <div id="hamburger">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                      </div>
+                  </div>
+                  <div class="clearfix"></div>
+              </div>
+  
+              <ul id="menu_list">
+                  <li class="current_page"><a href="#">最新消息</a></li>
+                  <li><a href="#">關於我們</a></li>
+                  <li><a href="#">嚴選商品</a></li>
+                  <li><a href="#">常見問題</a></li>
+              </ul>
+          </nav>
+    </div>
+  
+
+    <div class="banner">
+      <div class="container-lg my-3">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+            </ol>
+      
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/index/apples-white-wooden-box.jpg" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/index/grape-.jpeg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/index/342744-1026.jpeg" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+    
+            <!-- Carousel controls -->
+            <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
         </div>
       </div>
-        <nav class="nav">
-          <ul class="link_list">
-            <li><a href="./Latest_news-official_announcement.html" class="announcement">最新消息</a></li>
-            <li><a href="./contact.html" class="about_me">關於我們</a></li>
-            <li><a href="./Product_overview.html" class="Product">嚴選商品</a></li>
-            <li><a href="./question.html" class="question">常見問題</a></li>
-          </ul>
-        </nav>
+    </div>
 
-    </header>
-    
-    <div class="banner"></div>
     <div class="newsticker">
       <p>NEWS</p>
       <a href="./Latest_news-official_announcement.html">more</a>
       <ul class="newsticker-list">
           <li class="newsticker-item">
-            That open was light. After also shall first rule third every place spirit light. Beginning together their hath, winged firmament.
+            中秋禮盒現正販售中，歡迎與我們訂購
           </li>
           <li class="newsticker-item">
-            That creature his bring waters female morning place Give bearing in isn't from. Without his fowl void bearing. Blessed give.
+            端午節與疫情影響物流貨物量爆增 暫停一周低溫配送服務
           </li>
           <li class="newsticker-item">
-            And also. Firmament and Give. Sea replenish gathered give in for whose tree their a said multiply abundantly give years.
+            110年春節繁盛期小許嚴選官網暫停所有訂單之下單及接單功能
           </li>
           
       </ul>
   </div>
-    <!-- <div class="box_top">
-      <p>NEWS</p>
-      <a href="./Latest_news-official_announcement.html">more</a>
-
-    </div> -->
     <div class="ribbon">
       <a><img src="./images/index/ribbon.png" alt=""></a>
     </div>
@@ -186,6 +224,46 @@
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/jquery.newsticker.js"></script>
+   
+    <!-- header -->
+
+    <script type="text/javascript">
+
+      function addListener(element, type, callback) {
+          if (element.addEventListener) {
+              element.addEventListener(type, callback);
+          } else if (element.attachEvent) {
+              element.attachEvent('on' + type, callback);
+          }
+      }
+  
+      addListener(document, 'DOMContentLoaded', function () {
+  
+          var mq = window.matchMedia("(max-width: 921px)");
+          if (mq.matches) {
+              document.getElementById("menu_list").classList.add("hidden");
+          }
+  
+          addListener(document.getElementById("menu_button"), 'click', function () {
+              document.getElementById("menu_list").classList.toggle("hidden");
+          });
+  
+          addListener(window, 'resize', function () {
+              var width = window.innerWidth ||
+                          document.documentElement.clientWidth ||
+                          document.body.clientWidth;
+  
+              if (width > 921) {
+                  document.getElementById("menu_list").classList.remove("hidden");
+              } else {
+                  document.getElementById("menu_list").classList.add("hidden");
+              }
+          });
+  
+      });
+    </script>
+             
+              
     
   </body>
   </html>

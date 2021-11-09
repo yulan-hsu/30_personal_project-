@@ -38,7 +38,6 @@ section.content div.boxbg-2{
 
 /* Wapasha */
 .button.button--wapasha {
-
 	background: #000000;
 	color: #ffffff;
 	-webkit-transition: background-color 0.3s, color 0.3s;
@@ -77,4 +76,15 @@ section.content div.boxbg-2{
 	-webkit-transform: scale3d(1, 1, 1);
 	transform: scale3d(1, 1, 1);
 	opacity: 1;
+
 }
+.button--size-s{
+	background: #ffffff !important;
+	color: #000000 !important;
+	border: 1px solid #EF6306!important;
+	transition: background-color 0.3s, color 0.3s!important;
+}
+.button--size-s:hover{
+	border: none!important;
+}
+

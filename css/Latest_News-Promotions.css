@@ -13,7 +13,7 @@ div.banner {
   font-size: 0px;
   margin: 0px auto;
   position: relative;
-
+margin-bottom: 10px;
 }
 div.banner div.sales img{
   width: 960px;
