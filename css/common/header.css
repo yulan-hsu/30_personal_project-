@@ -2,25 +2,25 @@ body {
   margin: 0;
 }
 
-div.header a.logo_img{
+header.header a.logo_img{
 display: inline-block;
 vertical-align: middle;
 margin: -2px 40px 0px 40px;
 float: left;
 
 }
-div.header a.logo_img img{
+header.header a.logo_img img{
 width: 140px;
 padding: 20px auto;
 }
 
-div.header div.right_icon{
+header.header div.right_icon{
 position: relative;
 display: flex;
 float: right;
 padding: 12px 60px;
 }
-div.header div.right_icon_img img{
+header.header div.right_icon_img img{
 width: 30px;
 padding: 7px 6px 4px 6px;
 }
@@ -47,6 +47,7 @@ nav ul li {
 }
 
 nav ul li a {
+  font-size: 18px;
   color: black;
   font-weight: bold;
   text-decoration: none;
@@ -105,7 +106,7 @@ nav ul li a:hover {
   }
 
   #hamburger {
-  margin-top: -12px;
+    margin-top: -12px;
   
   }
 
@@ -142,14 +143,14 @@ nav ul li a:hover {
   nav ul li.current_page a {
       color: #EF6306;
   }
-  div.header a.logo_img img{
+  header.header a.logo_img img{
     width: 120px;
     padding: 10px auto;
     margin: 10px 0px 0px 150px;
     }
-  div.header div.right_icon{
-      margin: 4px -50px 0px 0px;
-      }
+  header.header div.right_icon{
+    margin: 4px -50px 0px 0px;
+    }
 }
 
 
@@ -160,7 +161,7 @@ nav ul li a:hover {
 
   }
 
-  div.header a.logo_img img{
+  header.header a.logo_img img{
     width: 120px;
     padding: 10px auto;
     margin: 10px 0px 0px 260px;
@@ -169,7 +170,7 @@ nav ul li a:hover {
 
 @media (max-width: 576px) {
 
-  div.header a.logo_img img{
+  header.header a.logo_img img{
     width: 120px;
     padding: 10px auto;
     margin: 10px 0px 0px 160px;
@@ -177,31 +178,31 @@ nav ul li a:hover {
 }
 
 @media (max-width: 375px) {
-  div.header a.logo_img img{
+  header.header a.logo_img img{
     width: 120px;
     padding: 10px auto;
     margin: 10px 0px 0px 40px;
     }
-  div.header div.right_icon{
+  header.header div.right_icon{
     margin: -50px -50px 0px 0px;
     }
   }
   
   @media (max-width: 320px) {
-    div.header a.logo_img img{
+    header.header a.logo_img img{
       width: 100px;
       padding: 10px auto;
       margin: 10px 0px 0px 30px;
-      }
-    div.header div.right_icon{
-      margin: -45px -50px 0px 0px;
-      }
-      div.header div.right_icon_img img{
-      width: 25px;
-      }
-      #hamburger {
-        margin-top: -18px;
-        
-        }
-
     }
+    header.header div.right_icon{
+      margin: -45px -50px 0px 0px;
+    }
+    header.header div.right_icon_img img{
+      width: 25px;
+    }
+    #hamburger {
+      margin-top: -18px;
+        
+    }
+
+  }

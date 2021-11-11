@@ -259,40 +259,50 @@ section.Seasonal_goods div.circle{
   margin:-20px 0px 0px 50px;
   box-shadow:1px 3px 3px .5px gray;
 }
-section.Seasonal_goods_img div.items_img {
-  box-sizing: border-box;
+section.Seasonal_goods_img ul.img_list{
   width: 100%;
   max-width: 1280px;
-  height:250px;
-  display: grid;
   margin: 0 auto;
-  overflow:hidden;
-  grid-auto-flow: column;
-  grid-template-columns: auto auto auto auto ;
-  margin-bottom: 120px;
-  font-size: 0px;
-  grid-gap:0px;
+  padding: 0;
+  font-size: 0;
+}
+section.Seasonal_goods_img ul.img_list > li{
+  /* border: 1px solid red; */
+  display: inline-block;
+  vertical-align: top;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  font-size: o;
 }
 
-section.Seasonal_goods_img div.items_img a.fishes2 img{
-  width: 280px;
+section.Seasonal_goods_img div.img_block{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  /* 100% 是寬度的 100% */
+/*   padding-top: 100%; */
+  padding-top: 60%;
+}
+
+
+
+div.img_block.-a{
+  background-image: url("../images/index/IMG_2654.jpg");
   filter:brightness(0.6);
-
-
 }
-section.Seasonal_goods_img div.items_img a.apples2 img{
-  width: 400px;
-
+div.img_block.-b{
+  background-image: url("../images/index/apples-box-near-plants_176474-8915.jpeg");
   filter:brightness(0.6);
 }
-section.Seasonal_goods_img div.items_img a.grapes2 img{
-  width: 350px;
-
+div.img_block.-c{
+  background-image: url("../images/index/female-wearing-overalls-collecting-grapes-vineyard_1150-42489.jpeg");
   filter:brightness(0.6);
 }
-section.Seasonal_goods_img div.items_img a.cherries2 img{
-
-  width: 250px;
+div.img_block.-d{
+  background-image: url("../images/index/cherry.jpeg");
   filter:brightness(0.6);
 }
 
