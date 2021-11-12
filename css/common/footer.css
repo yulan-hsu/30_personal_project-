@@ -230,13 +230,15 @@ footer.footer div.down{
     width: 100%;
     line-height: 0;
     padding:0px 30px 0px 30px;
-    display: inline-block;
+    flex-direction: column;
+
   }
   div.up div.find_me{
     margin: 0 auto;
     text-align: center;
   
   }
+
   div.find_me  div.find_me_content{
     font-size: 14px;
     text-align: center;
@@ -326,6 +328,7 @@ footer.footer div.down{
   footer.footer div.up{
     padding:0px 20px 0px 20px;
   }
+}
  @media (max-width: 320px) {
   div.customer_service div.img  img{
     margin-bottom: 15px;
@@ -337,4 +340,4 @@ footer.footer div.down{
   footer.footer div.down{
     line-height: 1.3;
   }
-}
+ }

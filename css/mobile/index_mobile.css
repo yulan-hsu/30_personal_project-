@@ -1,0 +1,221 @@
+@media (max-width: 992px) {
+  div.newsticker {
+    max-width: 992px;
+
+  }
+  div.ribbon {
+    max-width: 992px;
+
+  }
+  div.ribbon a img {
+    max-width: 230px;
+ 
+  }
+
+  div.about_me {
+    max-width: 992px;
+    margin-top: -50px;
+  }
+
+  div.about_me div.about_me1 div.line1 {
+    margin: 20px 0px 0px 30px ;
+    height: 250px;
+
+  }
+  div.about_me div.about_me2 {
+    margin-left: 20px;
+
+  }
+
+  div.about_me div.about_me2 pre.text2 {
+    margin:-10px 0px 0px 80px;
+
+  }
+ 
+  div.about_me div.about_me3   {
+    margin-left: 30px;
+
+  }
+  div.about_me div.about_me3 a.img img{
+    width: 320px;
+  
+  }
+  div.about_me div.about_me3  p.text {
+    margin:100px 0px 0px 0px;
+  }
+  div.about_me  div.about_me3 div.line2 {
+    width: 200px;
+    margin: -10px 0px 0px 140px ;
+
+  }
+  div.about_me div.about_me4   {
+    margin-left: 0px;
+  
+  }
+  div.about_me div.about_me4 a.img img {
+    width: 180px;
+    margin:200px 0px 0px 0px;
+  }
+  div.about_me div.about_me4 p.text  {
+    margin:-320px 0px 0px 0px;
+   
+  }
+  div.about_me div.about_me4 div.line3 {
+    width: 80px;
+    margin: -308px 0px 0px -30px ;
+    
+  }
+  div.about_me  div.slogan p {
+    margin:240px 0px 10px -10px;
+
+  }
+  div.seasonal_goods_text h3{
+    margin-left:90px;
+
+  }
+  section.Seasonal_goods div.circle{
+    margin:-20px 40px 0px 40px;
+    
+  }
+  article.hot_goods{
+    max-width: 992px;
+    background-position: left 400px top 50px ;
+  }
+  article.hot_goods h4.hot_goods{
+    margin-left:-20px ;
+    padding:100px 0px 0px 80px;
+  }
+  article.hot_goods div.hot_goods_text p{
+  
+    margin:80px 0px 0px 80px;
+  }
+  article.hot_goods div.hot_goods_text a.more2{
+    margin:450px 0px 0px 300px;
+  }
+  article.hot_goods div.hot_goods_img {
+    width: 450px;
+    height: 480px;
+    margin:-330px 0px 0px 0px;
+  
+  }
+  article.hot_goods div.hot_goods_img img{
+    width: 380px;
+    height: 420px;
+  }
+  
+  article.hot_goods div.bar{
+    margin: 0 auto;
+    background-color: black;
+    height: 10px;
+    margin-top: 150px ;
+    width: 50%;
+   
+    
+  }
+  
+}
+
+
+
+@media (max-width: 768px) {
+  div.newsticker {
+    max-width: 768px;
+  }
+  div.ribbon a img {
+    max-width: 180px;
+ 
+  }
+  div.about_me {
+    border: 1px solid crimson;
+    max-width: 768px;
+    display: block;
+    margin:0 auto;
+    margin-top: -30px;
+  }
+  div.about_me div.about_me1 {
+    border: 1px solid slateblue;
+    width: 100%;
+    margin:0px 40px 0px 40px; 
+  }
+  div.about_me div.about_me1 h1{
+    height: 0;
+    transform: none;
+    margin:0px 0px 0px 0px;
+  }
+  div.about_me div.about_me1 div.line1 {
+    width: 100px;
+    height: 2px;
+    margin: 25px 0px 0px 150px ;
+  
+  }
+  div.about_me div.about_me2 {
+    border: 1px solid saddlebrown;
+    position: relative;
+    margin:0px 40px 0px 40px; 
+    display: block;
+    width: 40%;
+  
+  }
+  div.about_me div.about_me2 pre.text1 {
+    margin:40px 0px 0px 0px;
+   
+  }
+  div.about_me div.about_me2 pre.text2 {
+    margin:-10px 0px 0px 0px;
+
+  }
+  div.about_me div.about_me2 p {
+    margin-top: 8px;
+  
+  }
+  div.about_me div.about_me2 a.more1{
+    font-size: 12px;
+  }
+  div.about_me div.about_me3   {
+    border: 1px solid darkblue;
+    margin:0px 40px 0px 40px; 
+  }
+  div.about_me div.about_me3 a.img img{
+    float: right;
+    width: 330px;
+    margin:-180px 0px 0px 0px;
+  }
+  div.about_me div.about_me3  p.text {
+    display: none;
+  }
+  div.about_me  div.about_me3 div.line2 {
+    display: none;
+  
+  }
+  div.about_me div.about_me4   {
+    border: 1px solid darkgoldenrod;
+    margin:0px 40px 0px 40px; 
+  
+  }
+  div.about_me div.about_me4 a.img img {
+    width: 200px;
+    margin:20px 0px 0px 90px;
+    height: 50%;
+  }
+  div.about_me div.about_me4 p.text  {
+    display: none;
+  }
+  
+  div.about_me div.about_me4 div.line3 {
+    display: none;
+  }
+  div.about_me  div.slogan {
+    width: 100%;
+    background-color: blanchedalmond;
+    margin:0px 40px 0px 40px; 
+    border: 1px solid darkgoldenrod;
+  }
+  div.about_me  div.slogan p {
+    transform: none;
+    margin:0px 0px 10px 0px;
+    /* float: right; */
+    
+  }
+  
+  
+}

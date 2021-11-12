@@ -1,10 +1,11 @@
 body {
   margin: 0;
 }
-
+/* header.header{
+  display: flex;
+} */
 header.header a.logo_img{
-display: inline-block;
-vertical-align: middle;
+display: block;
 margin: -2px 40px 0px 40px;
 float: left;
 
@@ -146,11 +147,12 @@ nav ul li a:hover {
   header.header a.logo_img img{
     width: 120px;
     padding: 10px auto;
-    margin: 10px 0px 0px 150px;
+    margin: 10px 0px 0px 350px;
     }
   header.header div.right_icon{
     margin: 4px -50px 0px 0px;
     }
+  
 }
 
 
@@ -158,7 +160,6 @@ nav ul li a:hover {
 @media (max-width: 768px) {
   #menu_button_wrapper{
       margin-bottom: 10px;
-
   }
 
   header.header a.logo_img img{
@@ -171,16 +172,21 @@ nav ul li a:hover {
 @media (max-width: 576px) {
 
   header.header a.logo_img img{
-    width: 120px;
-    padding: 10px auto;
     margin: 10px 0px 0px 160px;
     }
 }
+@media (max-width: 441px) {
+  header.header a.logo_img img{
+    margin: 10px 0px 0px 70px;
+    }
+
+  header.header div.right_icon{
+    margin: -50px -50px 0px 0px;
+    }
+  }
 
 @media (max-width: 375px) {
   header.header a.logo_img img{
-    width: 120px;
-    padding: 10px auto;
     margin: 10px 0px 0px 40px;
     }
   header.header div.right_icon{
@@ -190,8 +196,6 @@ nav ul li a:hover {
   
   @media (max-width: 320px) {
     header.header a.logo_img img{
-      width: 100px;
-      padding: 10px auto;
       margin: 10px 0px 0px 30px;
     }
     header.header div.right_icon{

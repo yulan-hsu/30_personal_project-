@@ -1,0 +1,21 @@
+@media (max-width: 992px) {
+    div.banner {
+        border: 1px solid sienna;
+        width: 100%;
+        max-width: 992px;
+        font-size: 0px;
+        margin: 0px auto;
+        position: relative;
+      }
+      div.banner div.img img{
+        width: 660px;
+        top:0px;
+        right: 0px;
+      }
+      div.banner div.text img{
+        width: 500px;
+        margin:-350px 0px 0px 620px;
+        z-index: 20;
+        position:absolute;
+      }
+}
