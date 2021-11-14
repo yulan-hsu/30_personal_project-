@@ -19,7 +19,7 @@ header.header div.right_icon{
 position: relative;
 display: flex;
 float: right;
-padding: 12px 60px;
+padding:13px 0px;
 }
 header.header div.right_icon_img img{
 width: 30px;
@@ -149,10 +149,13 @@ nav ul li a:hover {
     padding: 10px auto;
     margin: 10px 0px 0px 350px;
     }
-  header.header div.right_icon{
-    margin: 4px -50px 0px 0px;
-    }
-  
+    header.header div.right_icon{
+      position: relative;
+      display: flex;
+      float: right;
+      margin-right:20px ;
+      padding-top: 17px;
+      }
 }
 
 
@@ -175,37 +178,47 @@ nav ul li a:hover {
     margin: 10px 0px 0px 160px;
     }
 }
-@media (max-width: 441px) {
+@media (max-width: 414px) {
   header.header a.logo_img img{
     margin: 10px 0px 0px 70px;
     }
 
   header.header div.right_icon{
-    margin: -50px -50px 0px 0px;
+    margin: 0px 0px 0px 0px;
     }
   }
 
 @media (max-width: 375px) {
+  header.header a.logo_img{
+    margin: -2px 0px 0px 60px;
+    
+    }
   header.header a.logo_img img{
-    margin: 10px 0px 0px 40px;
+    margin: 10px 0px 0px 20px;
     }
   header.header div.right_icon{
-    margin: -50px -50px 0px 0px;
+    margin: 0px 10px 0px 0px;
     }
   }
   
   @media (max-width: 320px) {
     header.header a.logo_img img{
-      margin: 10px 0px 0px 30px;
+      margin: 10px 0px 0px 10px;
+      width: 100px;
     }
+  
     header.header div.right_icon{
-      margin: -45px -50px 0px 0px;
+      
+      margin: 0px 0px 0px 0px;
     }
     header.header div.right_icon_img img{
-      width: 25px;
+      width: 20px;
+      padding: 7px 3px 4px 3px;
+      margin-right: 5px;
     }
+  
     #hamburger {
-      margin-top: -18px;
+      margin-top: -15px;
         
     }
 

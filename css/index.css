@@ -26,28 +26,32 @@ div.banner {
   border: 2px solid black;
   background: #ffffff;
   font-size: 14px;
-  font-family: "王漢宗細黑體繁", "Chalkboard SE";
-  margin: 0px auto;
+  /* margin: 0px auto; */
   background-position: center center;
   box-shadow: 3px -3px black;
   cursor: default;
   line-height: 15.6px;
   position: relative;
   overflow: hidden;
+ 
 }
 
 .newsticker .newsticker-list {
-  width: 100%;
+  width: 1280px;
   position: absolute;
   top:9px;
   text-align: center;
-
+  margin: 0 auto;
+  
 }
 
 .newsticker .newsticker-list .newsticker-item {
   height: 30px;
+  width:1280px;
+  margin-left:-30px ;
   overflow: hidden;
   white-space: nowrap;
+  
 }
 
 div.newsticker  p{
@@ -227,6 +231,7 @@ section.Seasonal_goods {
 section.Seasonal_goods div.items_iocn{
   display: flex;
   padding: 20px;
+  line-height: 1;
 }
 section.Seasonal_goods div.items_iocn img{
   width:145px;

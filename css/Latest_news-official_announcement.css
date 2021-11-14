@@ -8,18 +8,19 @@ header.header nav.nav ul.link_list > li > a.announcement{
 }
 
 div.banner {
-  width: 100%;
   max-width: 1280px;
   font-size: 0px;
   margin: 0px auto;
   position: relative;
 }
 div.banner div.cherries img{
-  width: 960px;
+  width: 100%;
+  max-width: 960px;
 
 }
 div.banner div.text img{
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   margin:-345px 0px 0px 520px;
   z-index: 20;
   position:absolute;
@@ -28,29 +29,28 @@ div.banner div.text img{
 
 
 article.news{
-  width: 1280px;
-  height: 1000px;
-  margin: 20px auto;
- 
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
 
 }
 
-article.news div.news1{
-  height: 230px;
-  width: 80%;
-  background: #D9D9D9;
-  margin:105px 0px 80px 0px;
-  display:flex;
-  align-items: center ;
-  /* justify-content: center; */
-}
+
+  article.news div.news1{
+    height: 230px;
+    width: 80%;
+    background: #D9D9D9;
+    margin:105px 0px 0px 0px;
+    display:flex;
+    align-items: center ;
+    margin-bottom: 80px;
+    /* justify-content: center; */
+  }
+
 
 article.news div.news1 div.date{
-  font-family: "王漢宗細黑體繁", "Chalkboard SE";
   color: #000000;
   margin:30px 0px 0px 100px;
-  padding: 0px;
-
 }
 article.news div.news1 div.date h1{
   font-size: 24px;
@@ -85,7 +85,6 @@ article.news div.news1 div.text a{
 article.news div.news1 a.more{
   font-size: 14px;
   color: #000000;
-  font-family: "王漢宗細黑體繁", "Chalkboard SE","Monotype Corsiva";
   text-decoration:none;
   margin: 100px 0px 0px 20px;
 
@@ -98,7 +97,6 @@ article.news div.news2{
   float:right;
   background-position: right center;
   color: #FFFFFF;
-  font-family: "王漢宗細黑體繁", "Chalkboard SE";
   display:flex;
   align-items: center ;
   margin-bottom: 80px;
@@ -141,7 +139,6 @@ article.news div.news2 div.text a{
 article.news div.news2 a.more{
   font-size: 14px;
   color: white;
-  font-family: "王漢宗細黑體繁", "Chalkboard SE","Monotype Corsiva";
   text-decoration:none;
   margin: 100px 0px 0px 20px;
 
@@ -158,7 +155,6 @@ article.news div.news3{
 }
 
 article.news div.news3 div.date{
-  font-family: "王漢宗細黑體繁", "Chalkboard SE";
   color: #000000;
   margin:30px 0px 0px 100px;
   padding: 0px;
@@ -195,19 +191,9 @@ article.news div.news3 div.text a{
 article.news div.news3 a.more{
   font-size: 14px;
   color: #000000;
-  font-family: "王漢宗細黑體繁", "Chalkboard SE","Monotype Corsiva";
   text-decoration:none;
   margin: 100px 0px 0px 20px;
 
 }
 
-
-div.text_{
-  font-size: 14px;
-  font-family: "王漢宗細黑體繁", "Chalkboard SE";
-  background-color: #EF6306;
-  text-align: center;
-  max-width: 1280px;
-  margin: 0px auto;
-}
 
