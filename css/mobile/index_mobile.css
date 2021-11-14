@@ -133,7 +133,7 @@
   }
   .newsticker .newsticker-list {
     width: 768px;
-   
+    top:7px;
     
   }
   .newsticker .newsticker-list .newsticker-item {
@@ -448,7 +448,7 @@
   }
   .newsticker .newsticker-list {
     width:414px;
-    top:4px;
+   
   }
   .newsticker .newsticker-list .newsticker-item {
     width:414px;
@@ -456,7 +456,7 @@
   }
   
   .newsticker {
-   
+    
     width: 414px;
     height: 30px;
     font-size: 12px;
@@ -551,7 +551,7 @@
   }
   div.seasonal_goods_text {
     margin:0px 20px 0px 20px; 
-    max-width: 414px ;
+    max-width: 342px ;
   }
 
   div.seasonal_goods_text h3{
@@ -699,7 +699,7 @@
  
   div.seasonal_goods_text {
     margin:0px 15px 0px 15px; 
-    max-width: 375px ;
+    max-width: 325px ;
   }
 
   section.Seasonal_goods div.items_iocn img{
