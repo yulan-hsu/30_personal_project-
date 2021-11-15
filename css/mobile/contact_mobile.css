@@ -1,0 +1,610 @@
+@media (max-width: 992px) {
+    div.banner {
+        width: 992px;
+        
+    }
+    div.banner div.shape {
+        height: 440px;
+        width: 500px;
+        margin-right: 80px;
+    }
+
+    div.banner div.banner_img1 {
+        margin: 155px 0px 0px 80px;
+        
+    }
+
+    div.banner div.banner_img1 img{
+        width: 340px;
+        
+    }
+      
+    div.banner div.banner_img2 {
+        margin: 45px 0px 0px -40px;
+        z-index: 10;
+    }
+      
+    div.banner div.banner_img2 img{
+        width: 280px;
+    }
+      
+    div.color_block{   
+        max-width: 992px;
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+    
+    article.line1{
+        /* border: 1px solid slategrey; */
+        margin-top: -20px;
+        max-width: 992px;
+    }
+    article.line1 a.fishes_img img{
+        width: 520px;
+    
+    }
+    section.declaration{ 
+        margin: 50px 0px 50px 0px;
+    }
+    article.line1 div.text {
+        margin:40px 0px 0px 80px;
+      
+    }
+    article.line2{
+        
+        max-width: 992px;
+        margin-top: 140px;
+    }
+      
+    article.line2 div.text {
+        max-width: 992px;
+        padding-left: 500px;
+    }
+    article.line2 div.rectangle{
+        height: 120px;
+        margin:-126px 100px 0px -160px ;
+        
+    }
+      
+    article.line3{
+        /* border: 1px solid darkblue; */
+        max-width: 992px;
+        margin-top: -80px;
+    }
+    article.line3 a.cherries_img img{
+        width: 300px;
+        margin:-100px 0px 0px 160px;
+    }
+    article.line3 a.cantaloupe_img img{
+        width: 260px;
+        margin:-100px 0px 0px 460px;
+    }
+    article.line3 div.box{
+        margin:-385px 0px 0px 80px;
+        height: 260px;
+        width: 380px;
+       
+    }
+    article.line3 div.text {
+        margin: -41px 0px 0px 160px;
+    }
+    article.line4{
+        max-width: 992px;
+        margin-bottom: 60px;
+    }
+    div.square{
+    
+        width: 280px;
+        height: 280px;
+        margin:-10px 0px 0px -525px ;
+    }
+    article.line4 div.color_block{
+        margin:65px 0px 0px 500px;
+    }
+    article.line5{
+        max-width: 992px;
+    
+    }
+
+    article.line5 div.color_block {
+        height: 600px;
+    }
+    article.line6{  
+        margin-top: -100px;
+        max-width: 992px;
+    } 
+    article.line6 a img{
+        width: 240px;
+    } 
+}
+
+@media (max-width: 768px) {
+    div.banner {
+        width: 768px;
+        margin-top: -10px;
+    }
+    div.banner div.shape {
+        height: 380px;
+        width: 520px;
+        margin-right: 40px;
+    }
+    div.banner div.banner_img1 {
+        margin: 155px 0px 0px 40px;
+        
+    }
+    div.banner div.banner_img1 img{
+        width: 260px;
+        
+    }
+      
+    div.banner div.banner_img2 {
+        margin: 45px 0px 0px -40px;
+        z-index: 10;
+    }
+      
+    div.banner div.banner_img2 img{
+        width: 240px;
+    }  
+    div.color_block{   
+        max-width: 768px;
+        margin-left: 40px;
+    }
+    div.color_block div.color_block1{
+        width: 30px;
+        height: 30px;
+    }
+    div.color_block div.color_block2{
+        width: 30px;
+        height: 30px;
+    }
+    div.color_block div.color_block3{
+        width: 30px;
+        height: 30px;
+
+    }
+    div.color_block div.color_block4{
+        width: 30px;
+        height: 30px;
+
+    }
+    div.color_block div.color_block5{
+        width: 30px;
+        height: 30px;
+  
+    }
+    div.color_block div.color_block6{
+        width: 30px;
+        height: 30px;
+    }
+    article.line1{
+        margin-top: 40px;
+        max-width: 768px;
+  
+    }
+    h1{
+        margin:0px 0px -13px 40px;
+    }
+    h2{      
+        margin:15px 0px 0px 40px; 
+        
+    }
+    article.line1 a.fishes_img img{
+        width: 390px;
+        margin-right: 40px;
+    }
+      
+    article.line1 div.text {
+
+        margin:26px 0px 0px 40px;
+      
+    }
+    article.line2{ 
+        max-width: 768px;
+        margin-top: 60px;
+    }
+      
+    article.line2 div.text {
+        max-width: 260px;
+        margin-left: 405px;
+        padding-left: 0px;
+    }
+    br.pluse{   
+         display: none; 
+    }
+    article.line2 div.rectangle{
+        height: 100px;
+        margin:-100px 70px 0px 0px ;
+        
+    }
+      
+    article.line3{
+        
+        max-width: 768px;
+        margin-top: -120px;
+    }
+    article.line3 a.cherries_img img{
+        width: 250px;
+        margin:0px 0px 0px 130px;
+    }
+    article.line3 a.cantaloupe_img img{
+        width: 230px;
+        margin:-130px 0px 0px 380px;
+    }
+    article.line3 div.box{
+        margin:-300px 0px 0px 40px;
+        height: 200px;
+        width: 360px;
+       
+    }
+    article.line3 div.text {
+        width: 240px;
+        margin: -50px 0px 0px 135px;
+    }
+    article.line4{
+        max-width: 768px;
+        margin-bottom: 60px;
+    }
+    div.square{
+        border: 10px solid #EF6306;
+        width: 220px;
+        height: 220px;
+        margin:0px 0px 0px -441px ;
+    }
+    article.line4 div.color_block{
+        margin:25px 0px 0px 410px;
+    }
+    article.line4 div.color_block div.color_block1{
+        width: 30px;
+        height: 30px;
+    
+    }
+    article.line4 div.color_block div.color_block2{
+        width: 30px;
+        height: 30px;
+   
+    }
+    article.line4 div.color_block div.color_block3{
+        width: 30px;
+        height: 30px;
+    
+    }
+    article.line4 div.color_block div.color_block4{
+        width: 30px;
+        height: 30px;
+  
+    }
+    article.line4 div.color_block div.color_block5{
+        width: 30px;
+        height: 30px;
+    
+    }
+      
+    article.line5{
+        max-width: 768px;
+    
+    }
+    article.line5 div.color_block {
+        margin-left: 40px;
+        width: 450px;
+        height: 500px;
+          
+    }
+    article.line5 div.text{
+        margin-right: 40px;
+           
+    }
+       
+    article.line5 div.text div.text2 {
+        padding: 110px 0px 0px 50px;
+        font-size: 14px;
+    }
+    article.line6{
+        margin-top: -100px;
+        max-width: 768px;
+    }
+    article.line6{
+    
+        margin-top: -30px;
+        max-width: 768px;
+        margin-left: 120px;
+        padding-left: 0px;
+        margin-bottom: 60px;
+    }
+    article.line6 a img{
+        width: 200px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    div.banner {
+        width: 576px;
+    }
+    div.banner div.shape {
+        height: 325px;
+        width: 520px;
+        margin-right: 30px;
+    }
+    div.banner div.banner_img1 {
+        margin: 155px 0px 0px 30px;
+        
+    }
+    div.banner div.banner_img1 img{
+        width: 200px;
+        
+    }
+      
+    div.banner div.banner_img2 {
+        margin: 60px 0px 0px -40px;
+    }
+      
+    div.banner div.banner_img2 img{
+        width: 180px;
+    }  
+    div.color_block{   
+        max-width: 576px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    div.color_block div.color_block1{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+    div.color_block div.color_block2{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+    div.color_block div.color_block3{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+
+    }
+    div.color_block div.color_block4{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+
+    }
+    div.color_block div.color_block5{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+  
+    }
+    div.color_block div.color_block6{
+        width: 25px;
+        height: 25px;
+    }
+    section.declaration{ 
+        margin: 50px 0px 50px 0px;
+
+      }
+    section.declaration div.declaration1{
+       
+        width: 200px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    section.declaration  div.declaration1 div.circle1 {
+        height: 130px;
+        width: 130px;
+        margin: 0px auto;
+      
+    }
+    section.declaration div.declaration1 pre {
+        font-size: 20px;
+        margin-top: -80px;
+      
+    }
+    section.declaration  div.declaration1 p {
+        font-size: 16px;
+      
+    }
+    section.declaration div.declaration2{
+    
+        width: 200px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    section.declaration  div.declaration2 div.circle2 {
+        height: 130px;
+        width: 130px;
+        margin: 0px auto;
+      
+    }
+    section.declaration div.declaration2 pre {
+        font-size: 20px;
+        margin-top: -80px;
+      
+    }
+    section.declaration  div.declaration2 p {
+        font-size: 16px;
+      
+    }
+    section.declaration div.declaration3{
+    
+        width: 200px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    section.declaration  div.declaration3 div.circle3 {
+        height: 130px;
+        width: 130px;
+        margin: 0px auto;
+      
+    }
+    section.declaration div.declaration3 pre {
+        font-size: 20px;
+        margin-top: -80px;
+      
+    }
+    section.declaration  div.declaration3 p {
+        font-size: 16px;
+      
+    }
+      
+    article.line1{
+        margin-top: 0px;
+        max-width: 576px;
+  
+    }
+    h1{
+        font-size: 20px;
+        margin:0px 0px -13px 30px;
+    }
+    h2{      
+        max-width: 500px;
+        font-size: 20px;
+        margin:10px 0px 0px 30px; 
+        padding-bottom: 5px;
+        
+    }
+    article.line1 a.fishes_img img{
+        width: 300px;
+        margin-right: 30px;
+       
+    }
+      
+    article.line1 div.text {
+        margin:16px 0px 0px 30px;
+        font-size: 16px;
+        line-height: 1.2;
+      
+    }
+    article.line2{ 
+        max-width: 576px;
+        margin-top: 33px;
+        z-index: 10;
+   
+    }
+      
+    article.line2 div.text {
+        max-width: 230px;
+        margin-left: 310px;
+        line-height: 1.2;
+        font-size: 16px;
+       
+    }
+    article.line2 div.rectangle{
+        height: 70px;
+        margin:-70px 31px 0px 0px ;
+        width: 4px;
+    }
+      
+    article.line3{
+        
+        max-width: 576px;
+        margin-top: -180px;
+    }
+    article.line3 a.cherries_img img{
+        width: 200px;
+        margin:0px 0px 0px 100px;
+    }
+    article.line3 a.cantaloupe_img img{
+        width: 180px;
+        margin:-120px 0px 0px 300px;
+    }
+    article.line3 div.box{
+        margin:-300px 0px 0px 40px;
+        height: 200px;
+        width: 360px;
+       
+    }
+    article.line3 div.text {
+        width: 200px;
+        margin: -10px 0px 0px 100px;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    article.line4{
+        max-width: 576px;
+        margin-bottom: 20px;
+    }
+    div.square{
+        border: 8px solid #EF6306;
+        width: 180px;
+        height: 180px;
+        margin:0px 0px 0px -353px ;
+    }
+    article.line4 div.color_block{
+        margin:18px 0px 0px 325px;
+    }
+    article.line4 div.color_block div.color_block1{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+    article.line4 div.color_block div.color_block2{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+    article.line4 div.color_block div.color_block3{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+    article.line4 div.color_block div.color_block4{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+    article.line4 div.color_block div.color_block5{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }   
+      
+    article.line5{
+        max-width: 576px;
+    
+    }
+    article.line5 div.color_block {
+        /* border:1px solid darkcyan; */
+        margin-left: 30px;
+        width:200px;
+        margin-top: 20px;
+        height: 490px;
+          
+    }
+    article.line5 div.text{
+        margin-right: 30px;
+           
+    }
+    article.line5 div.text div.text1  h3{
+        font-size: 20px;
+      
+    }
+    article.line5 div.text div.text1  h4{
+        font-size: 20px;
+        width: 440px;
+    }
+       
+    article.line5 div.text div.text2 {
+        float: right;
+        width: 450px;
+        padding: 20px 0px 0px 30px;
+        
+    }
+    article.line6{
+        margin-top: 0px;
+        max-width: 576px;
+    }
+  
+    article.line6 a img{
+        width: 180px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 414px) {
+  
+}
+@media (max-width: 375px) {
+  
+}
+@media (max-width: 320px) {
+  
+}

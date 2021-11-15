@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>小許嚴選</title>
     <link href="./css/Latest_news-new_products.css" rel="stylesheet">
+    <link href="./css/mobile/Latest_news-new_products_mobile.css" rel="stylesheet">
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="./js/jquery.waterwheelCarousel.js"></script>
 
@@ -22,10 +23,63 @@
      
       }
       #carousel img {
-       
+     
         visibility:hidden; /* hide images until carousel can handle them */
         cursor:pointer; /* otherwise it's not as obvious items can be clicked */
 
+      }
+      @media (max-width: 992px) {
+        #carousel {
+        width:992px;
+        /* height:700px; */
+      
+        }
+      }
+      @media (max-width: 768px) {
+        #carousel {
+        width:768px;
+        height:600px;
+        margin: 30px auto;
+    
+        }
+        #carousel img {
+        width: 40%;
+        height: 80%;
+        }
+      }
+      @media (max-width: 576px) {
+        #carousel {
+        width:576px;
+        height:300px;
+        margin: 0px auto;
+        margin-bottom: 40px;
+        }
+        #carousel img {
+        width: 38%;
+        height: 100%;
+        }
+      }
+      @media (max-width: 414px) {
+        #carousel {
+        width:350px;
+        height:220px;
+        margin: 10px auto;
+        margin-bottom: 30px;
+        }
+        #carousel img {
+        width: 55%;
+        height: 100%;
+        }
+      }
+      @media (max-width: 375px) {
+        #carousel {
+        width:320px;
+        
+        }
+        #carousel img {
+        width: 50%;
+        height: 100%;
+        }
       }
     </style>
 

@@ -3,6 +3,15 @@
 @import "./common/footer.css";
 @import "./buttons.css";
 
+.button--size-s{
+	background: #ffffff !important;
+	color: #000000 !important;
+	border: 1px solid #EF6306!important;
+	transition: background-color 0.3s, color 0.3s!important;
+}
+.button--size-s:hover{
+	border: none!important;
+}
 header.header nav.nav ul.link_list > li > a.announcement{
   color: #ffffff;
 }

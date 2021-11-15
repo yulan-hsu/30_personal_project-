@@ -1,17 +1,64 @@
 @media (max-width: 992px) {
+   
+    div.banner {
   
+        max-width: 992px;
+
+      }
+      div.banner div.img img{
+        width: 80%;
+      }
+      div.banner div.text img{
+        width: 50%;
+        margin:-300px 0px 0px 455px;
+      }
 }
 
 @media (max-width: 768px) {
+    div.banner {
+        max-width: 768px;
+
+      }
+      div.banner div.img img{
+        margin-top: -12px;
+      }
+      div.banner div.text img{
+        width: 45%;
+        margin:-230px 0px 0px 375px;
+      }
   
 }
 
 @media (max-width: 576px) {
-  
+    div.banner {
+        max-width: 576px;
+
+      }
+      div.banner div.text img{
+        width: 45%;
+        margin:-180px 0px 0px 275px;
+      }
 }
 @media (max-width: 414px) {
-  
+    div.banner {
+        max-width: 414px;
+
+      }
+
+      div.banner div.text img{
+        width: 45%;
+        margin:-125px 0px 0px 200px;
+      }
 }
+
 @media (max-width: 320px) {
-  
+    div.banner {
+        max-width: 320px;
+
+      }
+
+      div.banner div.text img{
+        width: 45%;
+        margin:-95px 0px 0px 150px;
+      }
 }

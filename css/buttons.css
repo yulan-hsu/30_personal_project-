@@ -78,15 +78,7 @@ section.content div.boxbg-2{
 	opacity: 1;
 
 }
-.button--size-s{
-	background: #ffffff !important;
-	color: #000000 !important;
-	border: 1px solid #EF6306!important;
-	transition: background-color 0.3s, color 0.3s!important;
-}
-.button--size-s:hover{
-	border: none!important;
-}
+
 @media (max-width: 992px) {
 	.button {
 		min-width: 150px;

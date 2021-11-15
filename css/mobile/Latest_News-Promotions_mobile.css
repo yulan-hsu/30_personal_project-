@@ -1,0 +1,204 @@
+@media (max-width: 992px) {
+    div.banner {   
+    max-width: 992px;  
+    margin-bottom: 0px;
+    }
+    div.banner div.sales img{
+    width: 80%;
+    }
+    section.Promotions_goods {
+    height: 730px;
+    max-width: 992px;
+    margin: 100px auto;
+    margin-top: 130px;
+    
+    }
+    section.Promotions_goods div.Promotions_goods_img {
+    width: 100%;
+    display: flex;
+    margin-left: 45px;
+
+    }
+
+    section.Promotions_goods div.Promotions_goods1 img {
+        max-width: 280px;
+        margin:0px 30px 0px 0px;
+      }
+      section.Promotions_goods div.Promotions_goods2 img {
+        max-width: 280px;
+        margin:155px 30px 0px 0px;
+      }
+      section.Promotions_goods div.Promotions_goods3 img {
+        max-width: 280px;
+        margin:310px 30px 0px 0px;
+      }
+}
+
+@media (max-width: 768px) {
+    div.banner {   
+    max-width: 768px;  
+    }
+
+    section.Promotions_goods {
+    height: 550px;
+    max-width: 768px;
+    margin: 80px auto;
+    margin-top: 110px;
+    
+    }
+    section.Promotions_goods div.Promotions_goods_img {
+    margin-left: 33px;
+    width: 80%;
+    }
+
+    section.Promotions_goods div.Promotions_goods1 img {
+        max-width: 220px;
+        margin:0px 20px 0px 0px;
+        border: 8px solid #656C74;
+      }
+      section.Promotions_goods div.Promotions_goods2 img {
+        max-width: 220px;
+        margin:125px 20px 0px 0px;
+        border: 8px solid #656C74;
+      }
+      section.Promotions_goods div.Promotions_goods3 img {
+        max-width: 220px;
+        margin:250px 0px 0px 0px;
+        border: 8px solid #656C74;
+      }
+}
+
+@media (max-width: 576px) {
+    div.banner {   
+        max-width: 576px;  
+        }
+    
+        section.Promotions_goods {
+        height: 440px;
+        max-width: 576px;
+        margin: 60px auto;
+        margin-top: 80px;
+        
+        }
+        section.Promotions_goods div.Promotions_goods_img {
+        margin-left: 25px;
+    
+        }
+    
+        section.Promotions_goods div.Promotions_goods1 img {
+            max-width: 165px;
+            margin:0px 15px 0px 0px;
+            border: 6px solid #656C74;
+          }
+          section.Promotions_goods div.Promotions_goods2 img {
+            max-width: 165px;
+            margin:100px 15px 0px 0px;
+            border: 6px solid #656C74;
+          }
+          section.Promotions_goods div.Promotions_goods3 img {
+            max-width: 165px;
+            margin:200px 0px 0px 0px;
+            border: 6px solid #656C74;
+          }
+  
+}
+@media (max-width: 414px) {
+    div.banner {   
+        max-width: 414px;  
+    }
+    
+    section.Promotions_goods {
+        height: 290px;
+        max-width: 414px;
+        margin: 50px auto;
+        margin-top: 60px;
+        
+    }
+    section.Promotions_goods div.Promotions_goods_img {
+        margin-left: 18px;
+    
+    }
+    
+     section.Promotions_goods div.Promotions_goods1 img {
+        max-width: 115px;
+        margin:0px 15px 0px 0px;
+        border: 5px solid #656C74;
+    }
+    section.Promotions_goods div.Promotions_goods2 img {
+        max-width: 115px;
+        margin:60px 15px 0px 0px;
+        border: 5px solid #656C74;
+    }
+    section.Promotions_goods div.Promotions_goods3 img {
+        max-width: 115px;
+        margin:120px 0px 0px 0px;
+        border: 5px solid #656C74;
+    }
+}
+@media (max-width: 375px) {
+    div.banner {   
+        max-width: 375px;  
+    }
+    
+    section.Promotions_goods {
+        height: 250px;
+        max-width: 375px;
+        margin: 50px auto;
+        margin-top: 60px;
+        
+    }
+    section.Promotions_goods div.Promotions_goods_img {
+        margin-left: 20px;
+    
+    }
+    
+     section.Promotions_goods div.Promotions_goods1 img {
+        max-width: 100px;
+        margin:0px 15px 0px 0px;
+       
+    }
+    section.Promotions_goods div.Promotions_goods2 img {
+        max-width: 100px;
+        margin:50px 15px 0px 0px;
+        
+    }
+    section.Promotions_goods div.Promotions_goods3 img {
+        max-width: 100px;
+        margin:100px 0px 0px 0px;
+    
+    }
+  
+}
+@media (max-width: 320px) {
+    div.banner {   
+        max-width: 320px;  
+    }
+    
+    section.Promotions_goods {
+        height: 220px;
+        max-width: 320px;
+        margin: 50px auto;
+        margin-top: 60px;
+        
+    }
+    section.Promotions_goods div.Promotions_goods_img {
+        margin-left: 15px;
+    
+    }
+    
+     section.Promotions_goods div.Promotions_goods1 img {
+        max-width: 90px;
+        margin:0px 10px 0px 0px;
+       
+    }
+    section.Promotions_goods div.Promotions_goods2 img {
+        max-width: 90px;
+        margin:45px 10px 0px 0px;
+        
+    }
+    section.Promotions_goods div.Promotions_goods3 img {
+        max-width: 90px;
+        margin:90px 0px 0px 0px;
+    
+    }
+}

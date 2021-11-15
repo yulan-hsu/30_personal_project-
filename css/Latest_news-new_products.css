@@ -3,6 +3,15 @@
 @import "./common/footer.css";
 @import "./buttons.css";
 
+.button--size-m{
+	background: #ffffff !important;
+	color: #000000 !important;
+	border: 1px solid #EF6306!important;
+	transition: background-color 0.3s, color 0.3s!important;
+}
+.button--size-m:hover{
+	border: none!important;
+}
 header.header nav.nav ul.link_list > li > a.announcement{
   color: #ffffff;
 }
@@ -25,22 +34,6 @@ div.banner div.text img{
   position:absolute;
 }
 
-div.products {
-position: relative;
-z-index: -1;
-width: 1280px;
-height: 680px;
-margin: 0 auto;
-display: flex;
-
-}
 
 
-div.text_{
-  font-size: 14px;
-  font-family: "王漢宗細黑體繁", "Chalkboard SE";
-  background-color: #EF6306;
-  text-align: center;
-  max-width: 1280px;
-  margin: 0px auto;
-}
+
