@@ -1,0 +1,409 @@
+@media (max-width: 992px) {
+  div.banner {
+    height: 40px;
+      
+  }
+      
+  div.breadcrumb{
+    padding: 5px 10px;
+    margin: -50px 0px 20px -5px;
+    border-radius: 5px;
+  }
+ 
+  
+  div.outer_block{
+
+    width: 992px;
+    margin: 50px auto;
+
+  
+  }
+  
+  div.left_block{
+    flex-basis: 450px;
+    margin:0px 0px 0px 60px;
+
+  }
+  div.left_block div.show div.item{
+    width:440px; 
+    margin:0px;
+  }
+  a.big-photo img{ 
+    width:440px; 
+    height:440px; 
+  }
+  a.des-small img{
+     width:143px; 
+     height:143px;
+  }
+  div.right_block{
+    margin-right: 60px;
+    
+  }
+  div.right_block h1{
+    
+    margin-top: 5px;
+  }
+  div.right_block div.text p{
+    margin-top: 25px;
+  
+   
+ }
+ br.reduce{
+  display: none;
+}
+   h2{
+    width: 992px;
+   }
+}
+
+@media (max-width: 768px) {
+    div.banner {
+      height: 40px;
+        
+    }
+        
+    div.breadcrumb{
+      /* border: 1px solid red; */
+      padding: 5px 10px;
+      margin: -50px 0px 20px 0px;
+    
+    }
+   
+    
+    div.outer_block{
+      /* border: 1px solid darkred; */
+      width: 768px;
+      margin: 50px auto;
+  
+    
+    }
+    
+    div.left_block{
+      /* border: 1px solid orange; */
+      margin:0px 0px 0px 25px;
+      flex-basis: 380px;
+    }
+    
+    div.left_block div.show{
+      /* border: 1px solid purple; */
+      width:380px; 
+  
+    }
+    div.left_block div.show div.item{
+      width:400px; 
+      margin:0px;
+    }
+    a.big-photo img{ 
+      width:360px; 
+      height:360px; 
+    }
+    a.des-small img{
+       width:116px; 
+       height:116px;
+    }
+    
+    div.right_block{
+      /* border: 1px solid purple; */
+      position: relative;
+      flex-grow: 1;
+      margin-right: 20px;
+      margin-top: -10px;
+    }
+    div.right_block h1{
+      margin-top: 10px;
+      margin-bottom: -5px;
+    }
+    div.right_block div.text{
+      margin-top: -10px;
+     font-size: 14px;
+     line-height: 1.4;
+     
+   }
+    div.right_block div.text a{
+      margin-bottom: -5px;
+      
+    }
+    div.right_block select.custom_select{
+      margin-top: 10px;
+      width: 80px;
+
+    }
+
+     h2{
+      width: 768px;
+     }
+  
+}
+
+@media (max-width: 576px) {
+  div.banner {
+    height: 30px;
+      
+  }
+      
+  div.breadcrumb ol.breadcrumb_list > li{
+      font-size: 16px;
+    }
+ 
+  
+  div.outer_block{
+    /* border: 1px solid darkred; */
+    width: 576px;
+    margin: 50px auto;
+
+  
+  }
+  
+  div.left_block{
+    /* border: 1px solid orange; */
+    margin:0px 0px 0px 15px;
+    flex-basis: 280px;
+  }
+  
+  div.left_block div.show{
+    /* border: 1px solid purple; */
+    width:300px; 
+
+  }
+  div.left_block div.show div.item{
+    width:400px; 
+    margin:0px;
+  }
+  a.big-photo img{ 
+    width:290px; 
+    height:290px; 
+  }
+  a.des-small img{
+     width:93px; 
+     height:93px;
+  }
+  
+  div.right_block{
+    
+    position: relative;
+    flex-grow: 1;
+    margin-right: 15px;
+   
+  }
+  div.right_block h1{
+    font-size: 16px;
+  
+  }
+  div.right_block div.text{
+    margin-top: -10px;
+   font-size: 12px;
+   line-height: 1.4;
+   
+ }
+  div.right_block div.text > p{
+    /* border: 1px solid purple; */
+    margin-top: 15px;
+    
+  }
+  div.right_block select.custom_select{
+    margin-top: 10px;
+    background-position: right 8px center;
+    font-size: 10px;
+    height: 25px;
+    width: 60px;
+  }
+  div.right_block input{
+    height: 25px;
+
+  
+  }
+  div.right_block input.min,input.add{
+    width: 20px;
+    
+  }
+  div.right_block input.quantity{
+    width: 40px;
+    
+  }
+  button{
+    font-size: 12px;
+    margin-top: 5px;
+    height: 25px;
+  }
+   h2{
+    width: 576px;
+    font-size: 16px;
+   }
+}
+@media (max-width: 414px) {
+  div.banner {
+    height: 20px;
+      
+  }
+ 
+  
+  div.outer_block{
+    /* border: 1px solid darkred; */
+    width: 414px;
+    margin: 40px auto;
+    display: block;
+  
+  }
+  
+  div.left_block{
+    /* border: 1px solid orange; */
+    margin:0px 0px 0px 15px;
+    flex-basis: 280px;
+  }
+  
+  div.left_block div.show{
+    /* border: 1px solid purple; */
+    width:300px; 
+
+  }
+  div.left_block div.show div.item{
+    width:400px; 
+    margin:0px;
+  }
+  a.big-photo img{ 
+    width:290px; 
+    height:290px; 
+  }
+  a.des-small img{
+     width:93px; 
+     height:93px;
+  }
+  
+  div.right_block{
+    /* border: 1px solid black; */
+    display: block;
+    width: 414px;
+    margin: 0 auto;
+    position: relative;
+    padding-left:70px ;
+   
+  }
+  div.right_block h1{
+    font-size: 20px;
+  
+  }
+  div.right_block div.text{
+   margin-top: 50px;
+   font-size: 14px;
+   line-height: 1.5;
+  
+   
+ }
+ div.right_block div.quantity{
+   margin-top: -460px;
+ }
+  div.right_block div.text > p{
+    /* border: 1px solid purple; */
+    margin-top: 15px;
+    
+  }
+  div.right_block select.custom_select{
+    margin-top: 10px;
+    background-position: right 8px center;
+    font-size: 10px;
+    height: 25px;
+    width: 60px;
+  }
+  
+  button{
+    font-size: 12px;
+    margin-top: 5px;
+    height: 25px;
+  }
+   h2{
+     margin-top: 430px;
+    width: 414px;
+   
+   }
+}
+@media (max-width: 375px) {
+  div.outer_block{
+    width: 375px;
+  }
+  div.left_block div.show div.item{
+    width:420px; 
+    margin:0px;
+  }
+  
+  div.right_block{
+    width: 375px;
+    padding-left:50px ;
+    padding-right:10px ;
+   
+  }
+
+  div.right_block div.text{
+   margin-top: 40px;
+   font-size: 14px;
+   line-height: 1.5;
+  
+   
+ }
+ div.right_block div.quantity{
+   margin-top: -480px;
+ }
+  
+   h2{
+     margin-top: 450px;
+    width: 375px;
+   
+   }
+}
+
+@media (max-width: 320px) {
+  div.outer_block{
+     /* border: 1px solid orange; */
+    width: 320px;
+  }
+
+  
+  div.left_block{
+    /* border: 1px solid orange; */
+    margin:0px 0px 0px 0px;
+    
+  }
+  
+  div.left_block div.show{
+    /* border: 1px solid purple; */
+    width:250px; 
+    
+  }
+  div.left_block div.show div.item{
+     /* border: 1px solid black; */
+    width:320px; 
+    
+  }
+  a.big-photo img{ 
+    width:250px; 
+    height:250px; 
+  }
+  a.des-small img{
+     width:80px; 
+     height:80px;
+  }
+  div.right_block{
+    width: 320px;
+    padding-left:30px ;
+    padding-right:10px ;
+   
+  }
+
+  div.right_block div.text{
+     /* border: 1px solid purple; */
+   margin-top: 40px;
+   font-size: 12x;
+   line-height: 1.4;
+  
+   
+ }
+ div.right_block div.quantity{
+   margin-top: -440px;
+ }
+  
+   h2{
+     margin-top: 420px;
+    width: 320px;
+   
+   }
+}

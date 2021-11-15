@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>小許嚴選</title>
     <link href="./css/Product.css" rel="stylesheet">
+    <link href="./css/mobile/Product_mobile.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/slick.css">
     <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"> 
     <script src="./js/jquery.min.js"></script>
@@ -21,18 +22,64 @@
       }
   
       .slider {
-          width: 50%;
+          width: 55%;
           margin: 30px auto;
-  
+        
+      }
+      @media (max-width: 992px) {
+        .slider {
+            width: 60%;
+        
+        }
+      }
+      @media (max-width: 768px) {
+        .slider {
+            width: 65%;
+          
+        }
+      }
+      @media (max-width: 576px) {
+        .slider {
+            width: 70%;
+           
+        }
+      }
+      @media (max-width: 414px) {
+        .slider {
+            width: 75%;
+           
+        }
+      }
+      @media (max-width: 375px) {
+        .slider {
+            width: 80%;
+           
+        }
+      }
+      @media (max-width: 320px) {
+        .slider {
+            width: 85%;
+           
+        }
       }
   
       .slick-slide {
         margin: 0px 10px;
         
       }
-  
+      @media (max-width: 414px) {
+        .slick-slide {
+        margin: 0px 5px;
+        }
+      }
+      @media (max-width: 414px) {
+        .slick-slide {
+        margin: 0px 3px;
+        }
+      }
       .slick-slide img {
         width: 100%;
+        margin-bottom: 10px;
       }
   
       .slick-prev:before,
@@ -68,9 +115,9 @@
               </div>
   
               <ul id="menu_list">
-                  <li class="current_page"><a href="./Latest_news-official_announcement.html">最新消息</a></li>
+                  <li><a href="./Latest_news-official_announcement.html">最新消息</a></li>
                   <li><a href="./contact.html">關於我們</a></li>
-                  <li><a href="./Product_overview.html">嚴選商品</a></li>
+                  <li class="current_page"><a href="./Product_overview.html">嚴選商品</a></li>
                   <li><a href="./question.html">常見問題</a></li>
               </ul>
           </nav>
@@ -89,7 +136,7 @@
           <div class="item">
            <a class="big-photo">
             <img src="./images/Product/DSC06693.JPG" alt="big"/>
-           </a>
+           </a><br>
            <a class="des-small">
             <img src="./images/Product/DSC06693.JPG" alt="small"/>
            </a>
@@ -107,15 +154,15 @@
 
       <div class="right_block">
         <h1>頂級烏魚子禮盒</h1><br>
-        <span>
-          【商品簡介】<br>
+        <div class="text">
+          <a>【商品簡介】<br>
           * 極品中的極品，重量最重、萬中選一<br>
           * 第一級的夢幻逸品，海鮮史上最尊榮的象徵<br>
           * 宣紙印滿百家姓，為日本天皇才能用的紙張<br>
           * 烏魚洄游造型琉璃環珮，有豐收、財富、圓滿的意涵<br>
           * 送禮心意不打折，滿心誠意原裝送出<br>
-          <br>
-          【商品尺寸】<br>
+          </a>
+          <p>【商品尺寸】<br>
           禮盒：長168*寬276*高46mm<br>
           提袋：長250*寬310*高60mm(不含提繩)<br>
           <br>
@@ -126,21 +173,22 @@
           包裝方式：1片+1包/盒，真空包裝<br>
           保存期限：1年<br>
           保存方式：-18°C以下冷凍保存<br>
-          加工地：雲林縣口湖村<br>
-        </span>
-        <select class="custom_select">
-          <option>9兩</option>
-          <option>8兩</option>
-          <option>7兩</option>
-          <option>6兩</option>
-          <option>5兩</option>
-        </select>
-        <input class="min" name="" type="button" value="-" />
-        <input class="quantity" name="" type="text" value="1" />
-        <input class="add" name="" type="button" value="+" />
-        <button type="button">加入購物車</button>
+          加工地：雲林縣口湖村<br></p>
+          </div>
+          <div class="quantity">
+            <select class="custom_select">
+              <option>9兩</option>
+              <option>8兩</option>
+              <option>7兩</option>
+              <option>6兩</option>
+              <option>5兩</option>
+            </select>
+            <input class="min" name="" type="button" value="-" />
+            <input class="quantity" name="" type="text" value="1" />
+            <input class="add" name="" type="button" value="+" /><br class="reduce">
+            <button type="button">加入購物車</button>
+          </div>
       </div>
-    </div>
     <h2>你可能也喜歡</h2>
     <section class="regular slider">
       <div>

@@ -2,9 +2,6 @@
 @import "./common/header.css";
 @import "./common/footer.css";
 
-header.header nav.nav ul.link_list > li > a.Product{
-  color: #ffffff;
-}
 
 div.banner {
   position: relative;
@@ -58,29 +55,10 @@ div.breadcrumb ol.breadcrumb_list > li > a:hover{
   color: #EF6306;
 }
 
-div.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  /* border: 1px solid black; */
-  font-size: 16px;
-  margin: 20px 60px 0px 60px;
-  /* padding: 30px; */
-  gap: 20px;
-}
-div.grid-container div.fish1  {
-  position:relative;
-  text-align: center;
-  margin: 0px auto;
-  width: 230px;
 
-}
-div.grid-container div.fish1 a {
-  text-decoration:none;
-  color: black;
-  
-}
 
 div.outer_block{
+  /* border: 1px solid deeppink; */
   position: relative;
   width: 1280px;
   margin: 100px auto;
@@ -101,46 +79,51 @@ div.left_block div.show{
   /* border: 1px solid purple; */
   width:470px; 
   height:auto; 
-  margin:0px auto;
+  margin:0 auto;
 }
 div.left_block div.show div.item{
   width:470px; 
   height:auto; 
   float:left; 
-  margin:15px;
+
 }
 a.big-photo img{ 
   width:470px; 
   height:470px; 
 }
 a.des-small img{
-   width:150px; 
-   height:150px;
+   width:152px; 
+   height:152px;
 }
 div.clear{
   clear:both
 }
 
 div.right_block{
+  /* border: 1px solid purple; */
   position: relative;
   flex-grow: 1;
   margin-right: 100px;
+  
 }
 div.right_block h1{
   font-size: 18px;
+  margin-top: 0px;
 }
-div.right_block span{
-  font-size: 14px;
-
+ div.right_block div.text{
+   margin-top: -10px;
+  font-size: 16px;
+  line-height: 1.5;
+  
 }
 
 div.right_block select.custom_select{
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
-
+  height: 30px;
   outline: none;
   background: none;
   border: 1px solid black;
@@ -155,24 +138,36 @@ div.right_block select.custom_select{
   background-position: right 8px center;
   cursor: pointer;
   font-size: 14px;
-  font-family: "王漢宗細黑體繁", "Chalkboard SE";
   border-radius: 0px;
 }
 div.right_block input{
+  height: 30px;
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
   background-color: white;
+  text-align: center;
+
+}
+div.right_block input.min,input.add{
+  width: 20px;
+  
+}
+div.right_block input.quantity{
+  width: 60px;
+  
 }
 button{
   background-color: #EF6306;
-  color:black
+  color:white;
   font-size: 14px;
+  margin-top: 20px;
+  height: 30px;
 }
 
  h2{
   width: 1280px;
-  font-size: 24px;
+  font-size: 18px;
   margin: 0px auto;
   text-align: center;
  }
