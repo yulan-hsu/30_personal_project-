@@ -113,6 +113,8 @@ div.right_block{
 
 div.grid-container {
   display: grid;
+  align-self: stretch;
+  justify-self: stretch;
   grid-template-columns: auto auto auto;
   /* border: 1px solid black; */
   font-size: 16px;

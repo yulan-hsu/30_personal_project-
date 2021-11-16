@@ -6,7 +6,7 @@ header.header nav.nav ul.link_list > li > a.about_me{
   color: #ffffff;
 }
 div.banner {
-  border: 1px solid lawngreen;
+  /* border: 1px solid lawngreen; */
   top:-10px;
   width: 1280px;
   margin: 0 auto;
@@ -196,6 +196,7 @@ h2{
 
 }
 article.line1 a.fishes_img img{
+  margin-top: -270px;
   width: 680px;
   float: right;
   margin-right: 80px;
@@ -212,7 +213,7 @@ article.line2{
   position: relative;
   max-width: 1280px;
   margin: 0 auto;
-  margin-top: 260px;
+  margin-top: 255px;
 }
 
 article.line2 div.text {
@@ -378,6 +379,7 @@ article.line6{
   max-width: 1280px;
   padding-left: 260px;
   margin-bottom: 60px;
+  z-index: 50;
 }
 
 article.line6 a img{

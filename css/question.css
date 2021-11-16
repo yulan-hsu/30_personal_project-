@@ -7,7 +7,7 @@ header.header nav.nav ul.link_list > li > a.question{
 }
 
 div.banner {
- 
+  top: 30px;
   position: relative;
   height: 480px;
   width: 1280px;
@@ -25,6 +25,7 @@ div.outer_block{
   margin: 0 auto;
   display: flex;
   margin-bottom: 50px;
+  margin-top: 30px;
 
 }
 div.left_block{

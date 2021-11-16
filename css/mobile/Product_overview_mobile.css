@@ -321,7 +321,7 @@
           margin:0px 6px -5px 0px;
       }
       div.grid-container {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         font-size: 12px;
         margin: 10px 20px 0px 20px;
         gap:20px;
@@ -370,5 +370,127 @@
       }
 }
 @media (max-width: 320px) {
+  div.banner {
+    height: 170px;
+    width: 320px;
+
+  }
+  div.outer_block{
+    /* border: 1px solid red; */
+    width: 320px;
+    /* margin: 30px auto; */
+
   
+  }
+ 
+
+div.left_block h1{
+  font-size: 16px;
+}
+
+div.left_block a.fish {
+  font-size: 14px;
+  
+
+}
+
+  div.left_block a.fish img{
+   
+      width: 14px;
+      margin:0px 10px -8px 0px;
+  
+  }
+  div.left_block a.grape {
+    font-size: 14px;
+
+}
+  div.left_block a.grape img{
+  
+      width: 24px;
+      margin:0px 5px -6px -7px;
+
+  }
+
+  div.left_block a.cherry {
+    font-size: 14px;
+    
+
+}
+  div.left_block a.cherry img{
+      width: 16px;
+      margin:0px 10px -5px 0px;
+      
+  
+  }
+  div.left_block a.apple {
+    font-size: 14px;
+}
+  div.left_block a.apple img{
+      width: 18px;
+      margin:0px 8px -3px 0px;
+  }
+  div.left_block a.cantaloupe {
+    font-size: 14px;
+
+}
+  div.left_block a.cantaloupe img{
+      width: 20px;
+      margin:0px 6px -5px 0px;
+  
+  }
+  div.left_block a.pitaya {
+    font-size: 14px;
+}
+  div.left_block a.pitaya img{
+      width: 20px;
+      margin:0px 6px -5px 0px;
+  }
+  div.grid-container {
+    /* border: 1px solid red; */
+    font-size: 10px;
+    margin: 10px 20px 0px 20px;
+    gap:20px;
+    
+  }
+
+  div.grid-container div.fish1  {
+    
+    width: 130px;
+  
+  }
+
+  div.fish1  img{
+    width: 130px;
+
+   
+  }
+  
+  div.fish2 a img{
+    width: 130px;
+  }
+  div.fish3 a img{
+    width: 130px;
+  }
+  div.cherry a img{
+    width: 130px;
+  }
+
+  div.cantaloupe a img{
+    width: 130px;
+  }
+  div.apple a img{
+    width: 130px;
+  }
+
+  div.grape a img{
+    width: 130px;
+  }
+
+  div.pitaya1 a img{
+    width: 130px;
+  }
+
+  div.pitaya2 a img{
+    width: 130px;
+  }
 }

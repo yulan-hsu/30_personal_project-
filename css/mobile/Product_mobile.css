@@ -258,7 +258,7 @@
 
   }
   div.left_block div.show div.item{
-    width:400px; 
+    width:300px; 
     margin:0px;
   }
   a.big-photo img{ 
@@ -322,7 +322,7 @@
     width: 375px;
   }
   div.left_block div.show div.item{
-    width:420px; 
+    width:320px; 
     margin:0px;
   }
   
@@ -371,7 +371,7 @@
   }
   div.left_block div.show div.item{
      /* border: 1px solid black; */
-    width:320px; 
+    width:280px; 
     
   }
   a.big-photo img{ 

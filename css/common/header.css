@@ -1,9 +1,16 @@
 body {
   margin: 0;
 }
-/* header.header{
-  display: flex;
-} */
+header.header{
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  
+    top: 0;
+    bottom: auto;
+    
+    z-index: 100;
+}
 header.header a.logo_img{
 display: block;
 margin: -2px 40px 0px 40px;
@@ -38,7 +45,7 @@ nav {
 
 nav ul {
   width: 100%;
-  max-width: 1024px;
+  max-width: 1280x;
   margin: 0 auto;
   list-style-type: none;
 }
