@@ -387,7 +387,8 @@
 
   }
   div.seasonal_goods_text {
-    margin:0px 30px 0px 30px; 
+    margin:0px 0px 0px 0px; 
+    padding: 0px 30px 0px 30px;
     max-width: 576px ;
   }
   
@@ -840,7 +841,7 @@
   }
  
   div.seasonal_goods_text {
-    margin:0px 10px 0px 10px; 
+    margin:0px 0px 0px 0px; 
     max-width: 320px ;
   }
   div.seasonal_goods_text h3{
@@ -854,8 +855,9 @@
   
   article.hot_goods{
     max-width: 320px;
+    background-position: left 110px top 80px ;
+    height: 380px;
   }
-  
   
   article.hot_goods h4.hot_goods{
 
@@ -865,19 +867,20 @@
   }
   article.hot_goods div.hot_goods_text p{
     margin:80px 0px 0px 15px;
+    width: 90px;
     font-size:12px ;
  
   }
   article.hot_goods div.hot_goods_text a.more2{
     padding: 0.5px;
     font-size: 6px;
-    margin:0px 0px 0px 125px;
+    margin:0px 0px 0px 100px;
     border-radius: 5px;
   }
   article.hot_goods div.hot_goods_img {
-    width: 180px;
-    height: 260px;
-    margin:-220px 0px 0px 0px;
+    width: 160px;
+    height: 240px;
+    margin:-200px 0px 0px 0px;
   
   }
   article.hot_goods div.hot_goods_img img{
@@ -887,9 +890,9 @@
   }
   
   article.hot_goods div.bar{
-    margin-left: 200px;
-    margin-top: 95px ;
-    width: 45%;
+    margin-left: 130px;
+    margin-top: 85px ;
+    width: 50%;
     height: 5px;
     border-radius: 5px;
     
